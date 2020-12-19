@@ -4819,19 +4819,19 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 20000 4150 50  0001 C CNN
 	4    20000 4150
 	1    0    0    -1  
 $EndComp
-Text Notes 2550 11550 0    350  ~ 70
+Text Notes 2550 11600 0    350  ~ 70
 1
-Text Notes 4100 11550 0    350  ~ 70
+Text Notes 4100 11600 0    350  ~ 70
 2
-Text Notes 5800 11550 0    350  ~ 70
+Text Notes 5800 11600 0    350  ~ 70
 3
-Text Notes 7400 11550 0    350  ~ 70
+Text Notes 7400 11600 0    350  ~ 70
 4
-Text Notes 9100 11550 0    350  ~ 70
+Text Notes 9100 11600 0    350  ~ 70
 5
-Text Notes 10800 11550 0    350  ~ 70
+Text Notes 10800 11600 0    350  ~ 70
 6
-Text Notes 12400 11550 0    350  ~ 70
+Text Notes 12400 11600 0    350  ~ 70
 7
 Text Notes 14000 11600 0    350  ~ 70
 8
@@ -5326,35 +5326,35 @@ Text Notes 12450 24550 0    350  ~ 70
 7
 Text Notes 14050 24600 0    350  ~ 70
 8
-Text Notes 15600 24600 0    350  ~ 70
+Text Notes 15600 22800 0    350  ~ 70
 9
-Text Notes 17050 24600 0    350  ~ 70
+Text Notes 17050 22800 0    350  ~ 70
 10
-Text Notes 18850 24600 0    350  ~ 70
+Text Notes 18850 22800 0    350  ~ 70
 11
-Text Notes 20600 24600 0    350  ~ 70
+Text Notes 20600 22800 0    350  ~ 70
 12
-Text Notes 22550 24600 0    350  ~ 70
+Text Notes 22550 22800 0    350  ~ 70
 13
-Text Notes 37800 24600 0    350  ~ 70
+Text Notes 37800 22800 0    350  ~ 70
 21
-Text Notes 35850 24600 0    350  ~ 70
+Text Notes 35850 22800 0    350  ~ 70
 20
-Text Notes 33850 24600 0    350  ~ 70
+Text Notes 33850 22800 0    350  ~ 70
 19
-Text Notes 31750 24600 0    350  ~ 70
+Text Notes 31750 22800 0    350  ~ 70
 18
-Text Notes 29900 24600 0    350  ~ 70
+Text Notes 29900 22800 0    350  ~ 70
 17
-Text Notes 28200 24600 0    350  ~ 70
+Text Notes 28200 22800 0    350  ~ 70
 16
-Text Notes 26450 24600 0    350  ~ 70
+Text Notes 26450 22800 0    350  ~ 70
 15
-Text Notes 24550 24600 0    350  ~ 70
+Text Notes 24550 22800 0    350  ~ 70
 14
-Text Notes 39800 24600 0    350  ~ 70
+Text Notes 39800 22800 0    350  ~ 70
 22
-Text Notes 41600 24600 0    350  ~ 70
+Text Notes 41600 22800 0    350  ~ 70
 23
 Wire Wire Line
 	20600 20700 20300 20700
@@ -5609,4 +5609,132 @@ Wire Wire Line
 Connection ~ 12250 22350
 Wire Wire Line
 	12250 22350 12250 22250
+Text Label 13800 14250 2    50   ~ 0
+P1J4?
+Text Label 13800 17850 2    50   ~ 0
+P1J4?
+Text Label 39600 14450 2    50   ~ 0
+A3
+Text Label 18850 18150 2    50   ~ 0
+A4
+Text Label 16850 12300 2    50   ~ 0
+A4
+Text Label 18650 12300 2    50   ~ 0
+A4
+Text Label 31800 17800 2    50   ~ 0
+A4
+Text Label 33850 18100 2    50   ~ 0
+A4
+Text Label 39600 15150 2    50   ~ 0
+A4
+Text Label 35700 15150 2    50   ~ 0
+A7
+Text Label 16850 12500 2    50   ~ 0
+A6
+Text Label 18650 12500 2    50   ~ 0
+A6
+Text Label 24550 17400 2    50   ~ 0
+A6
+Text Label 33850 18300 2    50   ~ 0
+A6
+Text Label 39600 18350 2    50   ~ 0
+A6
+Text Label 16850 12400 2    50   ~ 0
+A5
+Text Label 18650 12400 2    50   ~ 0
+A5
+Text Label 18850 17800 2    50   ~ 0
+A5
+Text Label 24550 19750 2    50   ~ 0
+A5
+Text Label 33850 18200 2    50   ~ 0
+A5
+Text Label 39600 17650 2    50   ~ 0
+A5
+Text Notes 12350 16750 0    350  ~ 70
+7
+Text Notes 13950 16750 0    350  ~ 70
+8
+Text Notes 15500 16750 0    350  ~ 70
+9
+Text Notes 16950 16750 0    350  ~ 70
+10
+Text Notes 18750 16750 0    350  ~ 70
+11
+Text Notes 20500 16750 0    350  ~ 70
+12
+Text Notes 22450 16750 0    350  ~ 70
+13
+Text Notes 37700 16750 0    350  ~ 70
+21
+Text Notes 35750 16750 0    350  ~ 70
+20
+Text Notes 33750 16750 0    350  ~ 70
+19
+Text Notes 31650 16750 0    350  ~ 70
+18
+Text Notes 29800 16750 0    350  ~ 70
+17
+Text Notes 28100 16750 0    350  ~ 70
+16
+Text Notes 26350 16750 0    350  ~ 70
+15
+Text Notes 24450 16750 0    350  ~ 70
+14
+Text Notes 39700 16750 0    350  ~ 70
+22
+Text Notes 41500 16750 0    350  ~ 70
+23
+Text Label 41450 15150 2    50   ~ 0
+A2
+Text Label 18850 18250 2    50   ~ 0
+A1
+Text Label 29900 13150 2    50   ~ 0
+A1
+Text Label 31800 17900 2    50   ~ 0
+A1
+Text Label 41450 14450 2    50   ~ 0
+A1
+Text Label 41650 12750 2    50   ~ 0
+A15
+Text Label 15400 17300 2    50   ~ 0
+A12
+Text Label 35700 18350 2    50   ~ 0
+A12
+Text Label 17050 17800 2    50   ~ 0
+A10
+Text Label 41450 15050 2    50   ~ 0
+A10
+Text Label 17050 18000 2    50   ~ 0
+A8
+Text Label 35700 14450 2    50   ~ 0
+A8
+Text Label 17050 14900 2    50   ~ 0
+A15
+Text Label 17050 17900 2    50   ~ 0
+A9
+Text Label 41450 14350 2    50   ~ 0
+A9
+Text Label 17050 17700 2    50   ~ 0
+A11
+Text Label 39600 14350 2    50   ~ 0
+A11
+Text Label 17050 14700 2    50   ~ 0
+A13
+Text Label 35700 18050 2    50   ~ 0
+A13
+Text Label 15400 17500 2    50   ~ 0
+A14
+Text Label 35700 17750 2    50   ~ 0
+A14
+Text Label 41650 12050 2    50   ~ 0
+A16
+Text Label 17050 21000 2    50   ~ 0
+A23
+Text Label 26500 14900 2    50   ~ 0
+A23
+Text Label 41650 12200 2    50   ~ 0
+A18
+Text Label 41650 13100 2    50   ~ 0
+A17
 $EndSCHEMATC
