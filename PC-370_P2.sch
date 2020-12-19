@@ -1076,11 +1076,6 @@ Text Label 11500 17150 0    50   ~ 0
 PB?8
 Text Label 11500 17050 0    50   ~ 0
 PB?9
-Wire Wire Line
-	10500 16850 10100 16850
-Wire Wire Line
-	10100 16850 10100 18200
-Connection ~ 10500 16850
 $Comp
 L power:+5V #PWR0131
 U 1 1 5FE6CBAF
@@ -1641,12 +1636,6 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 14100 4100 50  0001 C CNN
 	5    14100 4100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	13350 18200 13350 19900
-Wire Wire Line
-	13350 19900 15200 19900
-Wire Wire Line
-	10100 18200 13350 18200
 Text Notes 12750 23150 0    79   ~ 16
 Page Address Table
 Text Label 14050 22250 0    50   ~ 0
@@ -5498,13 +5487,6 @@ Text Label 24550 12300 2    50   ~ 0
 Status2?_C
 Text Label 26500 12400 2    50   ~ 0
 Status2?_C
-Wire Wire Line
-	13350 18200 13800 18200
-Connection ~ 13350 18200
-Wire Wire Line
-	12900 15250 13350 15250
-Wire Wire Line
-	13350 15250 13350 18200
 Text Label 10500 17350 2    50   ~ 0
 6-2?_OEa
 Text Label 10500 17450 2    50   ~ 0
@@ -5737,4 +5719,179 @@ Text Label 41650 12200 2    50   ~ 0
 A18
 Text Label 41650 13100 2    50   ~ 0
 A17
+Text Label 11500 13250 0    50   ~ 0
+E_Parity
+Text Label 12300 15350 2    50   ~ 0
+E_Parity
+NoConn ~ 11500 13450
+Wire Wire Line
+	15400 12100 12900 12100
+Wire Wire Line
+	12900 12100 12900 12150
+Wire Wire Line
+	12300 12250 11900 12250
+Wire Wire Line
+	11900 12250 11900 13100
+Wire Wire Line
+	11900 13100 12300 13100
+Text Label 19650 12900 0    50   ~ 0
+11-1?_O6
+Text Label 12300 12250 2    50   ~ 0
+11-1?_O6
+Text Label 17050 19950 2    50   ~ 0
+11-1?_O6
+Text Label 12900 12500 0    50   ~ 0
+Status2_3?
+Text Label 21200 12100 0    50   ~ 0
+12-1?_5
+Text Label 12300 12400 2    50   ~ 0
+12-1?_5
+Text Label 15400 18200 2    50   ~ 0
+12-1?_5
+Text Label 24550 12400 2    50   ~ 0
+12-1?_5
+Text Label 26500 12600 2    50   ~ 0
+12-1?_5
+Text Label 16000 12950 0    50   ~ 0
+9-1?_9
+Text Label 12300 12600 2    50   ~ 0
+9-1?_9
+Wire Wire Line
+	12900 12850 13350 12850
+Wire Wire Line
+	13350 12850 13350 14150
+Wire Wire Line
+	13350 14150 13800 14150
+Wire Wire Line
+	12900 13200 13650 13200
+Wire Wire Line
+	13650 13200 13650 12950
+Wire Wire Line
+	13650 12950 15400 12950
+Text Label 19450 14700 0    50   ~ 0
+11-2?_6
+Text Label 12300 14100 2    50   ~ 0
+11-2?_6
+Wire Wire Line
+	12900 14550 13100 14550
+Wire Wire Line
+	13100 14550 13100 13850
+Wire Wire Line
+	13100 13850 11900 13850
+Wire Wire Line
+	11900 13850 11900 14300
+Wire Wire Line
+	11900 14300 12300 14300
+Wire Wire Line
+	12900 14200 13050 14200
+Wire Wire Line
+	13050 14200 13050 13800
+Wire Wire Line
+	13050 13800 11850 13800
+Wire Wire Line
+	11850 13800 11850 15150
+Wire Wire Line
+	11850 15150 12300 15150
+NoConn ~ 12300 14800
+NoConn ~ 12300 15000
+NoConn ~ 12900 14900
+Text Label 12900 17650 0    50   ~ 0
+7-3?_8
+Text Label 24550 15250 2    50   ~ 0
+7-3?_8
+Text Label 16000 12300 0    50   ~ 0
+9-1?_6
+Text Label 13800 14350 2    50   ~ 0
+9-1?_6
+Text Label 24550 12600 2    50   ~ 0
+9-1?_6
+Text Label 23100 15200 0    50   ~ 0
+13-2?_9
+Text Label 13800 14450 2    50   ~ 0
+13-2?_9
+Text Label 18850 14450 2    50   ~ 0
+13-2?_9
+Text Label 24550 14550 2    50   ~ 0
+13-2?_9
+Text Label 16000 12100 0    50   ~ 0
+9-1?_5
+Text Label 13800 14550 2    50   ~ 0
+9-1?_5
+Text Label 15400 17650 2    50   ~ 0
+9-1?_5
+Text Label 24550 17750 2    50   ~ 0
+9-1?_5
+Text Label 28300 12950 2    50   ~ 0
+9-1?_5
+Text Label 16000 15200 0    50   ~ 0
+9-2?_8
+Text Label 13800 14650 2    50   ~ 0
+9-2?_8
+Text Label 15400 17850 2    50   ~ 0
+9-2?_8
+Text Label 18850 17450 2    50   ~ 0
+9-2?_8
+Text Label 39800 12600 2    50   ~ 0
+9-2?_8
+Text Label 14400 14700 0    50   ~ 0
+8-2?_8
+Text Label 15400 18550 2    50   ~ 0
+8-2?_8
+Text Label 21200 14350 0    50   ~ 0
+12-2?_5
+Text Label 13800 14750 2    50   ~ 0
+12-2?_5
+Text Label 15400 12200 2    50   ~ 0
+12-2?_5
+Text Label 15400 13050 2    50   ~ 0
+12-2?_5
+Text Label 18850 14950 2    50   ~ 0
+12-2?_5
+Text Label 20900 11900 0    50   ~ 0
+12-2?_5
+Text Label 24550 12700 2    50   ~ 0
+12-2?_5
+Text Label 26500 15250 2    50   ~ 0
+12-2?_5
+Text Label 28300 11900 2    50   ~ 0
+12-2?_5
+Text Label 31600 13000 2    50   ~ 0
+12-2?_5
+Text Label 35750 12050 2    50   ~ 0
+12-2?_5
+Wire Wire Line
+	13800 17500 13450 17500
+Wire Wire Line
+	13450 17500 13450 18000
+Wire Wire Line
+	13450 18000 13800 18000
+Wire Wire Line
+	13450 18000 13450 18350
+Wire Wire Line
+	13450 18350 13800 18350
+Connection ~ 13450 18000
+Text Label 25150 20200 0    50   ~ 0
+14-4?_4
+Text Label 13800 17500 2    50   ~ 0
+14-4?_4
+Text Label 26500 12500 2    50   ~ 0
+14-4?_4
+Text Label 35700 18650 2    50   ~ 0
+14-4?_4
+Text Label 37600 18500 2    50   ~ 0
+14-4?_4
+Text Label 16000 14900 0    50   ~ 0
+9-2?_6
+Text Label 13800 17650 2    50   ~ 0
+9-2?_6
+Text Label 12900 15250 0    50   ~ 0
+7-2?_11
+Text Label 10500 16750 2    50   ~ 0
+7-2?_11
+Text Label 13800 18200 2    50   ~ 0
+7-2?_11
+Text Label 15200 19900 2    50   ~ 0
+7-2?_11
+Text Label 13800 18550 2    50   ~ 0
+A23
 $EndSCHEMATC
