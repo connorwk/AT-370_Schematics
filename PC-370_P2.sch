@@ -1155,38 +1155,38 @@ PB?15
 $Comp
 L power:GND #PWR0135
 U 1 1 5FE76A37
-P 44350 18650
-F 0 "#PWR0135" H 44350 18400 50  0001 C CNN
-F 1 "GND" H 44355 18477 50  0000 C CNN
-F 2 "" H 44350 18650 50  0001 C CNN
-F 3 "" H 44350 18650 50  0001 C CNN
-	1    44350 18650
+P 44250 18650
+F 0 "#PWR0135" H 44250 18400 50  0001 C CNN
+F 1 "GND" H 44255 18477 50  0000 C CNN
+F 2 "" H 44250 18650 50  0001 C CNN
+F 3 "" H 44250 18650 50  0001 C CNN
+	1    44250 18650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	44350 18650 44350 17450
+	44250 18650 44250 17450
 Wire Wire Line
-	44350 17450 44750 17450
+	44250 17450 44750 17450
 $Comp
 L power:GND #PWR0136
 U 1 1 5FE786D7
-P 45600 18650
-F 0 "#PWR0136" H 45600 18400 50  0001 C CNN
-F 1 "GND" H 45605 18477 50  0000 C CNN
-F 2 "" H 45600 18650 50  0001 C CNN
-F 3 "" H 45600 18650 50  0001 C CNN
-	1    45600 18650
+P 45700 18650
+F 0 "#PWR0136" H 45700 18400 50  0001 C CNN
+F 1 "GND" H 45705 18477 50  0000 C CNN
+F 2 "" H 45700 18650 50  0001 C CNN
+F 3 "" H 45700 18650 50  0001 C CNN
+	1    45700 18650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	45250 16550 45600 16550
+	45250 16550 45700 16550
 Wire Wire Line
-	45600 16550 45600 18550
+	45700 16550 45700 18550
 Wire Wire Line
-	44750 16150 44350 16150
+	44750 16150 44250 16150
 Wire Wire Line
-	44350 16150 44350 17450
-Connection ~ 44350 17450
+	44250 16150 44250 17450
+Connection ~ 44250 17450
 Wire Wire Line
 	45250 18550 45250 18450
 Connection ~ 45250 17850
@@ -1211,11 +1211,11 @@ Connection ~ 45250 18450
 Wire Wire Line
 	45250 18450 45250 18350
 Wire Wire Line
-	45250 18550 45600 18550
+	45250 18550 45700 18550
 Connection ~ 45250 18550
-Connection ~ 45600 18550
+Connection ~ 45700 18550
 Wire Wire Line
-	45600 18550 45600 18650
+	45700 18550 45700 18650
 $Comp
 L 74xx:74LS280 U7
 U 1 1 5FE7DBC2
@@ -5127,16 +5127,16 @@ Wire Wire Line
 Wire Wire Line
 	23250 20900 23250 21250
 Wire Wire Line
-	23250 21250 22350 21250
+	23250 21250 22100 21250
 Wire Wire Line
-	22350 21250 22350 20700
+	22100 21250 22100 20700
 Wire Wire Line
-	22350 20700 22500 20700
+	22100 20700 22500 20700
 Wire Wire Line
-	22350 21250 22350 22050
+	22100 21250 22100 22050
 Wire Wire Line
-	22350 22050 19550 22050
-Connection ~ 22350 21250
+	22100 22050 19550 22050
+Connection ~ 22100 21250
 Text Label 950  15850 2    50   ~ 0
 FPU_15?
 Text Label 34600 20300 0    50   ~ 0
@@ -5297,7 +5297,7 @@ Text Label 6500 17150 0    50   ~ 0
 PB?6
 Text Label 5500 17350 2    50   ~ 0
 Status_LE
-Text Label 20500 20700 2    50   ~ 0
+Text Label 20600 20700 2    50   ~ 0
 Status_LE
 Text Notes 2600 24550 0    350  ~ 70
 1
@@ -5345,16 +5345,6 @@ Text Notes 39800 22800 0    350  ~ 70
 22
 Text Notes 41600 22800 0    350  ~ 70
 23
-Wire Wire Line
-	20600 20700 20300 20700
-Wire Wire Line
-	20300 20700 20300 21250
-Wire Wire Line
-	20300 21250 21450 21250
-Wire Wire Line
-	21450 21250 21450 20900
-Wire Wire Line
-	21450 20900 21200 20900
 Text Label 22500 18250 2    50   ~ 0
 Status_LE
 Text Label 22500 14450 2    50   ~ 0
@@ -5764,26 +5754,6 @@ Text Label 19450 14700 0    50   ~ 0
 11-2?_6
 Text Label 12300 14100 2    50   ~ 0
 11-2?_6
-Wire Wire Line
-	12900 14550 13100 14550
-Wire Wire Line
-	13100 14550 13100 13850
-Wire Wire Line
-	13100 13850 11900 13850
-Wire Wire Line
-	11900 13850 11900 14300
-Wire Wire Line
-	11900 14300 12300 14300
-Wire Wire Line
-	12900 14200 13050 14200
-Wire Wire Line
-	13050 14200 13050 13800
-Wire Wire Line
-	13050 13800 11850 13800
-Wire Wire Line
-	11850 13800 11850 15150
-Wire Wire Line
-	11850 15150 12300 15150
 NoConn ~ 12300 14800
 NoConn ~ 12300 15000
 NoConn ~ 12900 14900
@@ -5896,17 +5866,6 @@ Text Label 19450 20050 0    50   ~ 0
 11-4?_6
 Text Label 15400 12300 2    50   ~ 0
 11-4?_6
-Wire Wire Line
-	22500 17500 22150 17500
-Wire Wire Line
-	22150 17500 22150 17300
-Wire Wire Line
-	22150 17300 22500 17300
-Wire Wire Line
-	22800 17100 22150 17100
-Wire Wire Line
-	22150 17100 22150 17300
-Connection ~ 22150 17300
 Text Label 26600 18550 2    50   ~ 0
 P-UP_13
 Text Label 30200 17300 0    50   ~ 0
@@ -5915,7 +5874,7 @@ Text Label 30200 18150 0    50   ~ 0
 P-UP_13
 Text Label 26300 20700 2    50   ~ 0
 P-UP_13
-Text Label 22500 17300 2    50   ~ 0
+Text Label 22800 17100 0    50   ~ 0
 P-UP_13
 Text Label 19150 20250 0    50   ~ 0
 P-UP_13
@@ -6104,4 +6063,269 @@ Text Label 17650 20900 0    50   ~ 0
 A23orPAT1_D8
 Text Label 18850 17350 2    50   ~ 0
 A23orPAT1_D8
+Text Label 18650 12800 2    50   ~ 0
+DB_A-B
+Text Label 19650 13000 0    50   ~ 0
+11-1?_7
+Text Label 18850 19850 2    50   ~ 0
+11-1?_7
+NoConn ~ 19650 12800
+NoConn ~ 19650 12700
+NoConn ~ 19650 12600
+Text Label 19650 12500 0    50   ~ 0
+11-1?_13
+Text Label 28300 12250 2    50   ~ 0
+11-1?_13
+Text Label 19650 12400 0    50   ~ 0
+11-1?_14
+Text Label 29900 14650 2    50   ~ 0
+11-1?_14
+Text Label 29900 15350 2    50   ~ 0
+11-1?_14
+NoConn ~ 19650 12300
+Text Label 21200 12300 0    50   ~ 0
+12-1?_6
+Text Label 18850 14250 2    50   ~ 0
+12-1?_6
+Text Label 24550 14350 2    50   ~ 0
+12-1?_6
+Text Label 31800 17550 2    50   ~ 0
+12-1?_6
+Text Label 35750 12550 2    50   ~ 0
+12-1?_6
+Text Label 19450 14350 0    50   ~ 0
+11-2?_3
+Text Label 20600 12950 2    50   ~ 0
+11-2?_3
+Text Label 19450 15050 0    50   ~ 0
+11-2?_8
+Text Label 20450 17150 2    50   ~ 0
+11-2?_8
+Text Label 20450 18400 2    50   ~ 0
+11-2?_8
+Text Label 22500 17400 2    50   ~ 0
+11-2?_8
+Text Label 19450 15400 0    50   ~ 0
+11-2?_11
+Text Label 18850 15150 2    50   ~ 0
+11-2?_11
+Text Label 25150 14450 0    50   ~ 0
+14-2?_12
+Text Label 18850 15500 2    50   ~ 0
+14-2?_12
+Text Label 19450 20900 0    50   ~ 0
+Clk1_Lt'd_FPU_Busy
+Text Label 19450 17800 0    50   ~ 0
+11-3?_6
+Text Label 31800 18000 2    50   ~ 0
+11-3?_6
+Text Label 23100 18350 0    50   ~ 0
+~Status_Lt'd_FPU_Ready
+Text Label 18850 17900 2    50   ~ 0
+~Status_Lt'd_FPU_Ready
+Text Label 18850 18050 2    50   ~ 0
+Clk1_Lt'd_FPU_Busy
+Text Label 18850 17700 2    50   ~ 0
+Clk1_Lt'd_FPU_Busy
+Text Label 19450 18150 0    50   ~ 0
+11-3?_8
+Text Label 24550 19950 2    50   ~ 0
+11-3?_8
+Text Label 19450 17450 0    50   ~ 0
+Status2_7?
+Text Label 34650 12500 0    50   ~ 0
+19-1?_10
+Text Label 18850 17550 2    50   ~ 0
+19-1?_10
+Text Label 24550 20300 2    50   ~ 0
+19-1?_10
+NoConn ~ 19450 19850
+NoConn ~ 19450 20700
+Text Label 26600 18050 2    50   ~ 0
+P-UP_8
+Text Label 20900 12500 0    50   ~ 0
+P-UP_8
+Text Label 20900 12750 0    50   ~ 0
+P-UP_8
+Text Label 20900 13350 0    50   ~ 0
+P-UP_8
+Text Label 20600 12200 2    50   ~ 0
+Clk1
+Text Label 20600 20900 2    50   ~ 0
+Clk1
+Text Label 21200 20900 0    50   ~ 0
+Status_LE
+NoConn ~ 21200 13150
+Text Label 25150 18200 0    50   ~ 0
+14-3?_8
+Text Label 20600 14350 2    50   ~ 0
+14-3?_8
+Text Label 24550 14800 2    50   ~ 0
+14-3?_8
+Text Label 26600 18250 2    50   ~ 0
+P-UP_10
+Text Label 20900 14150 0    50   ~ 0
+P-UP_10
+Text Label 20900 15000 0    50   ~ 0
+P-UP_10
+Text Label 22800 14150 0    50   ~ 0
+P-UP_10
+Text Label 21200 15400 0    50   ~ 0
+~Clk1_Lt'd_AB_HL_C
+Text Label 24550 15050 2    50   ~ 0
+~Clk1_Lt'd_AB_HL_C
+Text Label 21200 15200 0    50   ~ 0
+Clk1_Lt'd_AB_HL_C
+Text Label 22500 14350 2    50   ~ 0
+Clk1_Lt'd_AB_HL_C
+Text Label 28300 13150 2    50   ~ 0
+Clk1_Lt'd_AB_HL_C
+Text Label 31600 12900 2    50   ~ 0
+Clk1_Lt'd_AB_HL_C
+Text Label 28900 15100 0    50   ~ 0
+AS_3
+Text Label 28300 15350 2    50   ~ 0
+AS_3
+Text Label 28300 14500 2    50   ~ 0
+AS_3
+Text Label 29900 11900 2    50   ~ 0
+AS_3
+Text Label 20900 15600 0    50   ~ 0
+AS_3
+Text Label 22800 18550 0    50   ~ 0
+AS_3
+Text Label 34600 20400 0    50   ~ 0
+19-4?_7
+Text Label 35700 20300 2    50   ~ 0
+19-4?_7
+Text Label 20450 17350 2    50   ~ 0
+19-4?_7
+Text Label 20450 18200 2    50   ~ 0
+19-4?_7
+Text Label 23100 17300 0    50   ~ 0
+13-3?_5
+Text Label 20450 17700 2    50   ~ 0
+13-3?_5
+Text Label 22500 15200 2    50   ~ 0
+13-3?_5
+Text Label 23100 17500 0    50   ~ 0
+13-3?_6
+Text Label 20450 17850 2    50   ~ 0
+13-3?_6
+Text Notes 21150 17800 0    79   ~ 16
+Proccessor Bus Grant Ack
+Text Label 32650 20400 0    50   ~ 0
+18-4?_7
+Text Label 22500 19950 2    50   ~ 0
+18-4?_7
+Text Label 22500 20800 2    50   ~ 0
+18-4?_7
+Text Label 20600 19950 2    50   ~ 0
+18-4?_7
+Wire Wire Line
+	23100 19850 23500 19850
+Wire Wire Line
+	23500 19850 23500 20350
+Wire Wire Line
+	23500 20350 22500 20350
+Wire Wire Line
+	22500 20350 22500 20050
+Text Label 12900 14550 0    50   ~ 0
+PAT2_D1norD2
+Text Label 12300 14300 2    50   ~ 0
+PAT2_D1norD2
+Text Label 12900 14200 0    50   ~ 0
+7-2?_3
+Text Label 12300 15150 2    50   ~ 0
+7-2?_3
+Text Label 26600 17850 2    50   ~ 0
+P-UP_6
+Text Label 20900 19650 0    50   ~ 0
+P-UP_6
+Text Label 22800 15000 0    50   ~ 0
+P-UP_6
+Wire Wire Line
+	21200 20050 21550 20050
+Wire Wire Line
+	21550 20050 21550 19550
+Wire Wire Line
+	21550 19550 20500 19550
+Wire Wire Line
+	20500 19550 20500 19850
+Wire Wire Line
+	20500 19850 20600 19850
+Wire Wire Line
+	21200 19850 21500 19850
+Wire Wire Line
+	21500 19850 21500 20350
+Wire Wire Line
+	21500 20350 20600 20350
+Wire Wire Line
+	20600 20350 20600 20050
+Text Label 26600 18150 2    50   ~ 0
+P-UP_9
+Text Label 22800 20250 0    50   ~ 0
+P-UP_9
+Text Label 20900 20500 0    50   ~ 0
+P-UP_9
+Text Label 20900 21100 0    50   ~ 0
+P-UP_9
+Text Label 44750 18550 2    50   ~ 0
+M-Cable_49
+Text Label 20600 20800 2    50   ~ 0
+M-Cable_49
+NoConn ~ 23100 14550
+Text Label 23100 15400 0    50   ~ 0
+13-2?_8
+Text Label 26500 14800 2    50   ~ 0
+13-2?_8
+Text Label 29900 12600 2    50   ~ 0
+13-2?_8
+Text Label 23100 18150 0    50   ~ 0
+Status_Lt'd_FPU_Ready
+Text Label 24550 17950 2    50   ~ 0
+Status_Lt'd_FPU_Ready
+$Comp
+L power:GND #PWR?
+U 1 1 605F0565
+P 22500 18350
+F 0 "#PWR?" H 22500 18100 50  0001 C CNN
+F 1 "GND" H 22505 18177 50  0000 C CNN
+F 2 "" H 22500 18350 50  0001 C CNN
+F 3 "" H 22500 18350 50  0001 C CNN
+	1    22500 18350
+	1    0    0    -1  
+$EndComp
+Text Label 20900 20250 0    50   ~ 0
+P-UP_6
+Wire Wire Line
+	22500 17500 22100 17500
+Wire Wire Line
+	22100 17300 22500 17300
+Wire Wire Line
+	22100 17500 22100 17300
+Connection ~ 22100 17300
+Wire Wire Line
+	22100 17100 22100 17300
+Wire Wire Line
+	22800 17100 22100 17100
+Text Label 23100 19850 0    50   ~ 0
+13-4?_5
+Text Label 22500 20900 2    50   ~ 0
+13-4?_5
+Text Label 23100 20700 0    50   ~ 0
+13-4?_9
+Text Label 22500 19850 2    50   ~ 0
+13-4?_9
+Text Label 26600 17750 2    50   ~ 0
+P-UP_5
+Text Label 22800 19650 0    50   ~ 0
+P-UP_5
+Text Label 22800 20500 0    50   ~ 0
+P-UP_5
+Text Label 22800 21100 0    50   ~ 0
+P-UP_5
+NoConn ~ 23100 20050
+Text Notes 22400 19500 0    79   ~ 16
+Clock Divider
 $EndSCHEMATC
