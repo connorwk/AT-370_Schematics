@@ -5712,10 +5712,6 @@ E_Parity
 Text Label 12300 15350 2    50   ~ 0
 E_Parity
 NoConn ~ 11500 13450
-Wire Wire Line
-	15400 12100 12900 12100
-Wire Wire Line
-	12900 12100 12900 12150
 Text Label 19650 12900 0    50   ~ 0
 11-1?_9
 Text Label 12300 12250 2    50   ~ 0
@@ -5738,18 +5734,6 @@ Text Label 16000 12950 0    50   ~ 0
 9-1?_9
 Text Label 12300 12600 2    50   ~ 0
 9-1?_9
-Wire Wire Line
-	12900 12850 13350 12850
-Wire Wire Line
-	13350 12850 13350 14150
-Wire Wire Line
-	13350 14150 13800 14150
-Wire Wire Line
-	12900 13200 13650 13200
-Wire Wire Line
-	13650 13200 13650 12950
-Wire Wire Line
-	13650 12950 15400 12950
 Text Label 19450 14700 0    50   ~ 0
 11-2?_6
 Text Label 12300 14100 2    50   ~ 0
@@ -5821,17 +5805,6 @@ Text Label 31600 13000 2    50   ~ 0
 12-2?_5
 Text Label 35750 12050 2    50   ~ 0
 12-2?_5
-Wire Wire Line
-	13800 17500 13450 17500
-Wire Wire Line
-	13450 17500 13450 18000
-Wire Wire Line
-	13450 18000 13800 18000
-Wire Wire Line
-	13450 18000 13450 18350
-Wire Wire Line
-	13450 18350 13800 18350
-Connection ~ 13450 18000
 Text Label 25150 20200 0    50   ~ 0
 14-4?_4
 Text Label 13800 17500 2    50   ~ 0
@@ -5856,12 +5829,6 @@ Text Label 15200 19900 2    50   ~ 0
 7-2?_11
 Text Label 13800 18550 2    50   ~ 0
 A23
-Wire Wire Line
-	15400 12300 15000 12300
-Wire Wire Line
-	15000 12300 15000 13150
-Wire Wire Line
-	15000 13150 15400 13150
 Text Label 19450 20050 0    50   ~ 0
 11-4?_6
 Text Label 15400 12300 2    50   ~ 0
@@ -6231,9 +6198,9 @@ Wire Wire Line
 Wire Wire Line
 	22500 20350 22500 20050
 Text Label 12900 14550 0    50   ~ 0
-PAT2_D1norD2
+PAT2_D1xorD2
 Text Label 12300 14300 2    50   ~ 0
-PAT2_D1norD2
+PAT2_D1xorD2
 Text Label 12900 14200 0    50   ~ 0
 7-2?_3
 Text Label 12300 15150 2    50   ~ 0
@@ -6328,4 +6295,22 @@ P-UP_5
 NoConn ~ 23100 20050
 Text Notes 22400 19500 0    79   ~ 16
 Clock Divider
+Text Label 13800 18000 2    50   ~ 0
+14-4?_4
+Text Label 13800 18350 2    50   ~ 0
+14-4?_4
+Text Label 12900 12850 0    50   ~ 0
+~LDS~nor~UDS
+Text Label 13800 14150 2    50   ~ 0
+~LDS~nor~UDS
+Text Label 15400 13150 2    50   ~ 0
+11-4?_6
+Text Label 12900 12150 0    50   ~ 0
+7-1?_1
+Text Label 15400 12100 2    50   ~ 0
+7-1?_1
+Text Label 12900 13200 0    50   ~ 0
+7-1?_13
+Text Label 15400 12950 2    50   ~ 0
+7-1?_13
 $EndSCHEMATC
