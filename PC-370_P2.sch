@@ -5299,21 +5299,21 @@ Text Label 5500 17350 2    50   ~ 0
 Status_LE
 Text Label 20600 20700 2    50   ~ 0
 Status_LE
-Text Notes 2600 24550 0    350  ~ 70
+Text Notes 2500 24550 0    350  ~ 70
 1
-Text Notes 4150 24550 0    350  ~ 70
+Text Notes 4050 24550 0    350  ~ 70
 2
-Text Notes 5850 24550 0    350  ~ 70
+Text Notes 5750 24550 0    350  ~ 70
 3
-Text Notes 7450 24550 0    350  ~ 70
+Text Notes 7350 24550 0    350  ~ 70
 4
-Text Notes 9150 24550 0    350  ~ 70
+Text Notes 9050 24550 0    350  ~ 70
 5
-Text Notes 10850 24550 0    350  ~ 70
+Text Notes 10750 24550 0    350  ~ 70
 6
-Text Notes 12450 24550 0    350  ~ 70
+Text Notes 12350 24550 0    350  ~ 70
 7
-Text Notes 14050 24600 0    350  ~ 70
+Text Notes 13950 24600 0    350  ~ 70
 8
 Text Notes 15600 22800 0    350  ~ 70
 9
