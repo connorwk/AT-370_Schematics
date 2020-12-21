@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 68000-PGA
+D 16/32-bit Microprocessor
+K 68000 Microprocessor CPU
+F https://www.nxp.com/docs/en/reference-manual/MC68000UM.pdf
+$ENDCMP
+#
+$CMP 68010-PGA
+D 16/32-bit Microprocessor
+K 68000 Microprocessor CPU
+F https://www.nxp.com/docs/en/reference-manual/MC68000UM.pdf
+$ENDCMP
+#
+$CMP 74S51
+D Dual 3- and 2-input AND-NOR ( S = /(AB[C] + DE[F]) )
+K TTL ANDNOR
+F http://www.ti.com/lit/ds/symlink/sn74ls51.pdf
+$ENDCMP
+#
+$CMP IBM_R_Network13_US
+D 13 resistor network, star topology, bussed resistors, small US symbol
+K R network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+#End Doc Library
