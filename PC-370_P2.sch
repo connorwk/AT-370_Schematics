@@ -597,7 +597,7 @@ A3
 Text Label 3800 13450 2    50   ~ 0
 A4
 Text Label 6450 23250 3    50   ~ 0
-P2J4?
+P1_FC2
 Text Label 3800 13550 2    50   ~ 0
 A7
 Text Label 3800 13650 2    50   ~ 0
@@ -881,22 +881,22 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR0127
 U 1 1 5FE2BF27
-P 1900 14250
-F 0 "#PWR0127" H 1900 14100 50  0001 C CNN
-F 1 "+5V" H 1915 14423 50  0000 C CNN
-F 2 "" H 1900 14250 50  0001 C CNN
-F 3 "" H 1900 14250 50  0001 C CNN
-	1    1900 14250
+P 1850 14250
+F 0 "#PWR0127" H 1850 14100 50  0001 C CNN
+F 1 "+5V" H 1865 14423 50  0000 C CNN
+F 2 "" H 1850 14250 50  0001 C CNN
+F 3 "" H 1850 14250 50  0001 C CNN
+	1    1850 14250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1900 14250 1900 15450
+	1850 14250 1850 15450
 Wire Wire Line
-	1900 15450 1450 15450
+	1850 15450 1450 15450
 Text Label 3050 23250 3    50   ~ 0
-P1J4?
+P2_FC2
 Text Label 5850 20050 2    50   ~ 0
-P1J4?
+P2_FC2
 Text Label 5850 19950 2    50   ~ 0
 FC1
 Text Label 2450 19950 2    50   ~ 0
@@ -4941,9 +4941,9 @@ Text Label 26600 17350 2    50   ~ 0
 ~P1_BGACK
 NoConn ~ 2450 19450
 Text Label 2450 20050 2    50   ~ 0
-P2J4?
+P1_FC2
 Text Label 3800 13250 2    50   ~ 0
-P1J4?
+P2_FC2
 NoConn ~ 2450 20350
 Text Label 2450 21450 2    50   ~ 0
 ~P1_BERR
@@ -5170,8 +5170,6 @@ Text Label 17050 15050 2    50   ~ 0
 ~DB_CE
 Text Label 24550 12100 2    50   ~ 0
 ~DB_CE
-Text Label 24550 18200 2    50   ~ 0
-~DB_CE
 Text Label 3800 14250 2    50   ~ 0
 ~AB_L_OE
 Text Label 3800 17450 2    50   ~ 0
@@ -5197,8 +5195,6 @@ PB?B_OE
 Text Label 5500 13250 2    50   ~ 0
 PB?0
 Text Label 9800 13250 0    50   ~ 0
-PB?0
-Text Label 35750 12950 2    50   ~ 0
 PB?0
 Text Label 6500 13550 0    50   ~ 0
 PB?7
@@ -5580,9 +5576,9 @@ Connection ~ 12250 22350
 Wire Wire Line
 	12250 22350 12250 22250
 Text Label 13800 14250 2    50   ~ 0
-P1J4?
+P2_FC2
 Text Label 13800 17850 2    50   ~ 0
-P1J4?
+P2_FC2
 Text Label 39600 14450 2    50   ~ 0
 A3
 Text Label 18850 18150 2    50   ~ 0
@@ -5851,8 +5847,6 @@ Text Label 15700 12750 0    50   ~ 0
 P-UP_13
 Text Label 16000 13150 0    50   ~ 0
 9-1?_7
-Text Label 26500 14450 2    50   ~ 0
-9-1?_7
 Text Label 15700 12500 0    50   ~ 0
 ~Reset
 Text Label 15700 13350 0    50   ~ 0
@@ -5985,9 +5979,9 @@ A13norA15
 Text Label 17050 18200 2    50   ~ 0
 A13norA15
 Text Label 17050 15250 2    50   ~ 0
-P2J4?
+P1_FC2
 Text Label 26300 20400 2    50   ~ 0
-P2J4?
+P1_FC2
 Text Label 27100 14800 0    50   ~ 0
 15_2?_6
 Text Label 28300 17300 2    50   ~ 0
@@ -6016,8 +6010,6 @@ Text Label 17050 20450 2    50   ~ 0
 18-2?_9
 Text Label 28600 21250 0    50   ~ 0
 18-2?_9
-Entry Wire Line
-	24750 22850 24850 22950
 Text Label 43900 26400 2    50   ~ 0
 ~ISA_IOW
 Text Label 17050 20650 2    50   ~ 0
@@ -6313,4 +6305,241 @@ Text Label 12900 13200 0    50   ~ 0
 7-1?_13
 Text Label 15400 12950 2    50   ~ 0
 7-1?_13
+Text Label 25150 12250 0    50   ~ 0
+14-1?_6
+Text Label 28300 12450 2    50   ~ 0
+14-1?_6
+Text Label 25150 12650 0    50   ~ 0
+14-1?_8
+Text Label 26500 12050 2    50   ~ 0
+14-1?_8
+Wire Wire Line
+	26500 12050 26500 12150
+Text Label 24550 14450 2    50   ~ 0
+9-1?_7
+Text Label 32400 17550 0    50   ~ 0
+18-3?_12
+Text Label 24550 14900 2    50   ~ 0
+18-3?_12
+Text Label 25150 14800 0    50   ~ 0
+14-2?_6
+Text Label 44750 18350 2    50   ~ 0
+14-2?_6
+Text Label 27300 20500 0    50   ~ 0
+15-4?_12
+Text Label 24550 17850 2    50   ~ 0
+15-4?_12
+Text Label 28300 18500 2    50   ~ 0
+15-4?_12
+Text Label 29900 12950 2    50   ~ 0
+15-4?_12
+Text Label 37650 12050 2    50   ~ 0
+15-4?_12
+Text Label 28900 18500 0    50   ~ 0
+~DB_CE
+Text Label 24550 12800 2    50   ~ 0
+~DB_CE
+Text Label 25150 17850 0    50   ~ 0
+14-3?_6
+Text Label 24550 18200 2    50   ~ 0
+14-3?_6
+Text Label 25150 17500 0    50   ~ 0
+14-3?_12
+Text Label 24550 18300 2    50   ~ 0
+14-3?_12
+Text Label 25150 20900 0    50   ~ 0
+14-4?_13
+Text Label 24550 17600 2    50   ~ 0
+14-4?_13
+Text Label 25150 19850 0    50   ~ 0
+14-4?_1
+Text Label 24550 21000 2    50   ~ 0
+14-4?_1
+Text Label 40400 12700 0    50   ~ 0
+22-1?_8
+Text Label 41650 11850 2    50   ~ 0
+22-1?_8
+Text Label 41650 12400 2    50   ~ 0
+22-1?_8
+Text Label 41650 12550 2    50   ~ 0
+22-1?_8
+Text Label 24550 20100 2    50   ~ 0
+22-1?_8
+Text Label 44750 18250 2    50   ~ 0
+M-Cable_43
+Text Label 24550 20450 2    50   ~ 0
+M-Cable_43
+Text Label 43900 25300 2    50   ~ 0
+ISA_RESET
+Text Label 24550 20650 2    50   ~ 0
+ISA_RESET
+Text Label 25150 20550 0    50   ~ 0
+10-4?_10
+Text Label 29650 21100 2    50   ~ 0
+10-4?_10
+Text Label 33600 21100 2    50   ~ 0
+10-4?_10
+Text Label 32400 17900 0    50   ~ 0
+18-3?_6
+Text Label 24550 20800 2    50   ~ 0
+18-3?_6
+Text Label 27100 12150 0    50   ~ 0
+15-1?_12
+Text Label 29900 12450 2    50   ~ 0
+15-1?_12
+Text Label 27100 12850 0    50   ~ 0
+15-1?_8
+Text Label 31800 17450 2    50   ~ 0
+15-1?_8
+Text Label 35750 11850 2    50   ~ 0
+15-1?_8
+Text Label 28900 13050 0    50   ~ 0
+16-1?_11
+Text Label 26500 12750 2    50   ~ 0
+16-1?_11
+Text Label 26500 14350 2    50   ~ 0
+12-2?_5
+Text Label 28900 17300 0    50   ~ 0
+16-3?_2
+Text Label 28300 12100 2    50   ~ 0
+16-3?_2
+Text Label 26500 14450 2    50   ~ 0
+16-3?_2
+Text Label 26500 15050 2    50   ~ 0
+16-3?_2
+NoConn ~ 26600 17950
+Text Label 26300 20200 2    50   ~ 0
+FC0
+Text Label 26300 20300 2    50   ~ 0
+FC1
+Wire Wire Line
+	26300 20800 26300 20900
+Wire Wire Line
+	26300 21200 26800 21200
+Connection ~ 26300 20900
+Wire Wire Line
+	26300 20900 26300 21200
+Connection ~ 26800 21200
+NoConn ~ 27300 20900
+Text Label 27300 20700 0    50   ~ 0
+15-4?_10
+Text Label 28300 17900 2    50   ~ 0
+15-4?_10
+Text Label 37650 11950 2    50   ~ 0
+15-4?_10
+NoConn ~ 27300 20600
+NoConn ~ 27300 20400
+NoConn ~ 27300 20300
+NoConn ~ 27300 20200
+Text Notes 27450 20600 0    50   ~ 0
+Undef Reserved
+Text Notes 27450 20900 0    50   ~ 0
+Supervisor Data
+Text Notes 27450 21000 0    50   ~ 0
+Supervisor Prog
+Text Notes 26400 19650 0    79   ~ 16
+P1 FC Decode
+Text Label 28900 12350 0    50   ~ 0
+16-1?_6
+Text Label 28300 12600 2    50   ~ 0
+16-1?_6
+Text Label 28900 14750 0    50   ~ 0
+16-2?_6
+Text Label 28300 14300 2    50   ~ 0
+16-2?_6
+Text Label 28900 18200 0    50   ~ 0
+16-3?_8
+Text Label 28300 15550 2    50   ~ 0
+16-3?_8
+Text Label 44750 17950 2    50   ~ 0
+M-Cable_37
+Text Label 28300 17600 2    50   ~ 0
+M-Cable_37
+Text Label 39600 18850 2    50   ~ 0
+M-Cable_37
+Text Label 41450 18700 2    50   ~ 0
+M-Cable_37
+Text Label 35700 15650 2    50   ~ 0
+M-Cable_37
+Text Label 39600 15650 2    50   ~ 0
+M-Cable_37
+Text Label 41450 15650 2    50   ~ 0
+M-Cable_37
+Text Label 37650 12750 2    50   ~ 0
+M-Cable_37
+Text Label 28900 17600 0    50   ~ 0
+~M-Cable_37
+Text Label 35750 12950 2    50   ~ 0
+~M-Cable_37
+Text Label 28900 17900 0    50   ~ 0
+16-3?_6
+Text Label 37650 12350 2    50   ~ 0
+16-3?_6
+Wire Wire Line
+	37650 12350 37650 12450
+Text Label 28900 18800 0    50   ~ 0
+ISA_REFRESH
+Text Label 35750 13150 2    50   ~ 0
+ISA_REFRESH
+Text Label 39800 11900 2    50   ~ 0
+ISA_REFRESH
+Text Label 43900 27000 2    50   ~ 0
+~ISA_REFRESH
+Text Label 28300 18800 2    50   ~ 0
+~ISA_REFRESH
+Text Label 39800 12950 2    50   ~ 0
+~ISA_REFRESH
+Text Label 34600 20700 0    50   ~ 0
+19-4?_11
+Text Label 28600 20250 0    50   ~ 0
+19-4?_11
+Text Label 43900 27200 2    50   ~ 0
+IRQ7
+Text Label 28900 20000 0    50   ~ 0
+IRQ7
+Text Label 34450 14950 0    50   ~ 0
+19-2?_8
+Text Label 28600 20750 0    50   ~ 0
+19-2?_8
+Text Label 30500 18350 0    50   ~ 0
+P1_IPL1
+Text Label 28300 20500 2    50   ~ 0
+P1_IPL1
+Text Label 45300 25300 0    50   ~ 0
+ISA_DB7
+Text Label 28900 20500 0    50   ~ 0
+ISA_DB7
+$Comp
+L power:GND #PWR?
+U 1 1 60916473
+P 28300 21000
+F 0 "#PWR?" H 28300 20750 50  0001 C CNN
+F 1 "GND" H 28305 20827 50  0000 C CNN
+F 2 "" H 28300 21000 50  0001 C CNN
+F 3 "" H 28300 21000 50  0001 C CNN
+	1    28300 21000
+	1    0    0    -1  
+$EndComp
+Text Label 43900 28500 2    50   ~ 0
+~ISA_IOCS16
+Text Label 28900 21000 0    50   ~ 0
+~ISA_IOCS16
+Text Label 45300 25600 0    50   ~ 0
+ISA_DB4
+Text Label 28900 21500 0    50   ~ 0
+ISA_DB4
+Text Label 29650 20200 2    50   ~ 0
+ISA_DB4
+Text Label 41500 20250 2    50   ~ 0
+ISA_DB4
+Text Label 30650 20200 0    50   ~ 0
+17_4?_2
+Text Label 28300 21500 2    50   ~ 0
+17_4?_2
+Text Label 34450 14250 0    50   ~ 0
+19-2?_3
+Text Label 35700 21100 2    50   ~ 0
+19-2?_3
+Text Label 28600 21750 0    50   ~ 0
+19-2?_3
 $EndSCHEMATC
