@@ -297,12 +297,12 @@ $EndComp
 $Comp
 L 74xx:74LS373 U27
 U 1 1 5FDCE991
-P 5150 24100
-F 0 "U27" H 5350 24750 50  0000 C CNN
-F 1 "74LS373" H 4900 24750 50  0000 C CNN
-F 2 "" H 5150 24100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 5150 24100 50  0001 C CNN
-	1    5150 24100
+P 10050 5000
+F 0 "U27" H 10250 5650 50  0000 C CNN
+F 1 "74LS373" H 9800 5650 50  0000 C CNN
+F 2 "" H 10050 5000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 10050 5000 50  0001 C CNN
+	1    10050 5000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -330,12 +330,12 @@ $EndComp
 $Comp
 L 74xx:74LS245 U6
 U 1 1 5FDD5524
-P 26050 39500
-F 0 "U6" H 26250 40150 50  0000 C CNN
-F 1 "74LS245" H 25800 40150 50  0000 C CNN
-F 2 "" H 26050 39500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 26050 39500 50  0001 C CNN
-	1    26050 39500
+P 26600 38800
+F 0 "U6" H 26800 39450 50  0000 C CNN
+F 1 "74LS245" H 26350 39450 50  0000 C CNN
+F 2 "" H 26600 38800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 26600 38800 50  0001 C CNN
+	1    26600 38800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -349,11 +349,11 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS374" H 31600 5000 50  0001 C CNN
 	1    31600 5000
 	1    0    0    -1  
 $EndComp
-Text Notes 5000 24450 0    79   ~ 16
+Text Notes 9900 5350 0    79   ~ 16
 '373
 Text Notes 1750 22400 0    79   ~ 16
 '245
-Text Notes 25900 39850 0    79   ~ 16
+Text Notes 26450 39150 0    79   ~ 16
 '245
 Text Notes 1750 24450 0    79   ~ 16
 '245
@@ -394,12 +394,12 @@ $EndComp
 $Comp
 L power:+5V #PWR0107
 U 1 1 5FDED64D
-P 5150 23300
-F 0 "#PWR0107" H 5150 23150 50  0001 C CNN
-F 1 "+5V" H 5165 23473 50  0000 C CNN
-F 2 "" H 5150 23300 50  0001 C CNN
-F 3 "" H 5150 23300 50  0001 C CNN
-	1    5150 23300
+P 10050 4200
+F 0 "#PWR0107" H 10050 4050 50  0001 C CNN
+F 1 "+5V" H 10065 4373 50  0000 C CNN
+F 2 "" H 10050 4200 50  0001 C CNN
+F 3 "" H 10050 4200 50  0001 C CNN
+	1    10050 4200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -471,12 +471,12 @@ $EndComp
 $Comp
 L power:+5V #PWR0114
 U 1 1 5FDEEAED
-P 26050 38700
-F 0 "#PWR0114" H 26050 38550 50  0001 C CNN
-F 1 "+5V" H 26065 38873 50  0000 C CNN
-F 2 "" H 26050 38700 50  0001 C CNN
-F 3 "" H 26050 38700 50  0001 C CNN
-	1    26050 38700
+P 26600 38000
+F 0 "#PWR0114" H 26600 37850 50  0001 C CNN
+F 1 "+5V" H 26615 38173 50  0000 C CNN
+F 2 "" H 26600 38000 50  0001 C CNN
+F 3 "" H 26600 38000 50  0001 C CNN
+	1    26600 38000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -537,12 +537,12 @@ $EndComp
 $Comp
 L power:GND #PWR0120
 U 1 1 5FDEFF94
-P 26050 40300
-F 0 "#PWR0120" H 26050 40050 50  0001 C CNN
-F 1 "GND" H 26055 40127 50  0000 C CNN
-F 2 "" H 26050 40300 50  0001 C CNN
-F 3 "" H 26050 40300 50  0001 C CNN
-	1    26050 40300
+P 26600 39600
+F 0 "#PWR0120" H 26600 39350 50  0001 C CNN
+F 1 "GND" H 26605 39427 50  0000 C CNN
+F 2 "" H 26600 39600 50  0001 C CNN
+F 3 "" H 26600 39600 50  0001 C CNN
+	1    26600 39600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -559,12 +559,12 @@ $EndComp
 $Comp
 L power:GND #PWR0122
 U 1 1 5FDF0757
-P 5150 24900
-F 0 "#PWR0122" H 5150 24650 50  0001 C CNN
-F 1 "GND" H 5155 24727 50  0000 C CNN
-F 2 "" H 5150 24900 50  0001 C CNN
-F 3 "" H 5150 24900 50  0001 C CNN
-	1    5150 24900
+P 10050 5800
+F 0 "#PWR0122" H 10050 5550 50  0001 C CNN
+F 1 "GND" H 10055 5627 50  0000 C CNN
+F 2 "" H 10050 5800 50  0001 C CNN
+F 3 "" H 10050 5800 50  0001 C CNN
+	1    10050 5800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -762,7 +762,7 @@ Text Label 32100 4500 0    50   ~ 0
 PB?15
 Text Label 1600 27250 2    50   ~ 0
 ~P1_IPL0
-Text Label 4650 23900 2    50   ~ 0
+Text Label 9550 4800 2    50   ~ 0
 ~P1_IPL0
 Text Label 7200 5750 0    50   ~ 0
 PB?0
@@ -1039,21 +1039,21 @@ Text Label 22150 35750 2    50   ~ 0
 PA18
 Text Label 22150 35850 2    50   ~ 0
 PAT1_D8
-Text Label 25550 39000 2    50   ~ 0
+Text Label 26100 38300 2    50   ~ 0
 PA12
-Text Label 25550 39100 2    50   ~ 0
+Text Label 26100 38400 2    50   ~ 0
 PA13
-Text Label 25550 39200 2    50   ~ 0
+Text Label 26100 38500 2    50   ~ 0
 PA14
-Text Label 25550 39300 2    50   ~ 0
+Text Label 26100 38600 2    50   ~ 0
 PA15
-Text Label 25550 39400 2    50   ~ 0
+Text Label 26100 38700 2    50   ~ 0
 PA16
-Text Label 25550 39500 2    50   ~ 0
+Text Label 26100 38800 2    50   ~ 0
 PA17
-Text Label 25550 39600 2    50   ~ 0
+Text Label 26100 38900 2    50   ~ 0
 PA18
-Text Label 25550 39700 2    50   ~ 0
+Text Label 26100 39000 2    50   ~ 0
 PAT1_D8
 Text Label 28800 37150 2    50   ~ 0
 PB?8
@@ -1936,12 +1936,12 @@ $EndComp
 $Comp
 L 74xx:74LS74 U72
 U 2 1 5FFE1A0C
-P 13200 8050
-F 0 "U72" H 13350 8300 50  0000 C CNN
-F 1 "74LS74" H 13000 8300 50  0000 C CNN
-F 2 "" H 13200 8050 50  0001 C CNN
-F 3 "74xx/74hc_hct74.pdf" H 13200 8050 50  0001 C CNN
-	2    13200 8050
+P 12350 8350
+F 0 "U72" H 12500 8600 50  0000 C CNN
+F 1 "74LS74" H 12150 8600 50  0000 C CNN
+F 2 "" H 12350 8350 50  0001 C CNN
+F 3 "74xx/74hc_hct74.pdf" H 12350 8350 50  0001 C CNN
+	2    12350 8350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2332,12 +2332,12 @@ $EndComp
 $Comp
 L 74xx:74LS02 U75
 U 2 1 600719FA
-P 26100 42900
-F 0 "U75" H 26300 42800 50  0000 C CNN
-F 1 "74LS02" H 26300 43050 50  0000 C CNN
-F 2 "" H 26100 42900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 26100 42900 50  0001 C CNN
-	2    26100 42900
+P 25600 41750
+F 0 "U75" H 25800 41650 50  0000 C CNN
+F 1 "74LS02" H 25800 41900 50  0000 C CNN
+F 2 "" H 25600 41750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 25600 41750 50  0001 C CNN
+	2    25600 41750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2486,12 +2486,12 @@ $EndComp
 $Comp
 L 74xx:74LS00 U17
 U 1 1 600CFD89
-P 24550 40100
-F 0 "U17" H 24800 40000 50  0000 C CNN
-F 1 "74S00" H 24800 40250 50  0000 C CNN
-F 2 "" H 24550 40100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 24550 40100 50  0001 C CNN
-	1    24550 40100
+P 25100 39400
+F 0 "U17" H 25350 39300 50  0000 C CNN
+F 1 "74S00" H 25350 39550 50  0000 C CNN
+F 2 "" H 25100 39400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 25100 39400 50  0001 C CNN
+	1    25100 39400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2618,12 +2618,12 @@ $EndComp
 $Comp
 L 74xx:74LS04 U57
 U 3 1 600E2E55
-P 21550 43100
-F 0 "U57" H 21700 43000 50  0000 C CNN
-F 1 "74LS04" H 21700 43200 50  0000 C CNN
-F 2 "" H 21550 43100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 21550 43100 50  0001 C CNN
-	3    21550 43100
+P 18200 3350
+F 0 "U57" H 18350 3250 50  0000 C CNN
+F 1 "74LS04" H 18350 3450 50  0000 C CNN
+F 2 "" H 18200 3350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 18200 3350 50  0001 C CNN
+	3    18200 3350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3005,12 +3005,12 @@ Text Notes 38500 30150 0    79   ~ 16
 $Comp
 L 74xx:74LS157 U61
 U 1 1 602525D7
-P 29300 44500
-F 0 "U61" H 29450 45250 50  0000 C CNN
-F 1 "74LS157" H 29050 45250 50  0000 C CNN
-F 2 "" H 29300 44500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS157" H 29300 44500 50  0001 C CNN
-	1    29300 44500
+P 29900 44900
+F 0 "U61" H 30050 45650 50  0000 C CNN
+F 1 "74LS157" H 29650 45650 50  0000 C CNN
+F 2 "" H 29900 44900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS157" H 29900 44900 50  0001 C CNN
+	1    29900 44900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3027,67 +3027,12 @@ $EndComp
 $Comp
 L 74xx:74LS157 U45
 U 1 1 6026012F
-P 29300 42150
-F 0 "U45" H 29450 42900 50  0000 C CNN
-F 1 "74LS157" H 29050 42900 50  0000 C CNN
-F 2 "" H 29300 42150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS157" H 29300 42150 50  0001 C CNN
-	1    29300 42150
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS153 U44
-U 1 1 60262EEB
-P 40000 42400
-F 0 "U44" H 40150 43250 50  0000 C CNN
-F 1 "74LS153" H 39750 43250 50  0000 C CNN
-F 2 "" H 40000 42400 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS153" H 40000 42400 50  0001 C CNN
-	1    40000 42400
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS153 U46
-U 1 1 602693A1
-P 40000 37300
-F 0 "U46" H 40150 38150 50  0000 C CNN
-F 1 "74LS153" H 39750 38150 50  0000 C CNN
-F 2 "" H 40000 37300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS153" H 40000 37300 50  0001 C CNN
-	1    40000 37300
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS153 U63
-U 1 1 6026A529
-P 40000 39850
-F 0 "U63" H 40150 40700 50  0000 C CNN
-F 1 "74LS153" H 39750 40700 50  0000 C CNN
-F 2 "" H 40000 39850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS153" H 40000 39850 50  0001 C CNN
-	1    40000 39850
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS153 U47
-U 1 1 602843FB
-P 40000 34750
-F 0 "U47" H 40150 35600 50  0000 C CNN
-F 1 "74LS153" H 39750 35600 50  0000 C CNN
-F 2 "" H 40000 34750 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS153" H 40000 34750 50  0001 C CNN
-	1    40000 34750
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS157 U64
-U 1 1 6028B3A9
-P 40000 44850
-F 0 "U64" H 40150 45600 50  0000 C CNN
-F 1 "74S157" H 39750 45600 50  0000 C CNN
-F 2 "" H 40000 44850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS157" H 40000 44850 50  0001 C CNN
-	1    40000 44850
+P 29900 42550
+F 0 "U45" H 30050 43300 50  0000 C CNN
+F 1 "74LS157" H 29650 43300 50  0000 C CNN
+F 2 "" H 29900 42550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS157" H 29900 42550 50  0001 C CNN
+	1    29900 42550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3115,12 +3060,12 @@ $EndComp
 $Comp
 L 74xx:74LS51 U22
 U 1 1 602AB1B7
-P 23100 42300
-F 0 "U22" H 23250 42100 50  0000 C CNN
-F 1 "74LS51" H 23250 42500 50  0000 C CNN
-F 2 "" H 23100 42300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74ls51.pdf" H 23100 42300 50  0001 C CNN
-	1    23100 42300
+P 23350 41200
+F 0 "U22" H 23500 41000 50  0000 C CNN
+F 1 "74LS51" H 23500 41400 50  0000 C CNN
+F 2 "" H 23350 41200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls51.pdf" H 23350 41200 50  0001 C CNN
+	1    23350 41200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3136,46 +3081,13 @@ F 3 "http://www.ti.com/lit/ds/symlink/sn74ls51.pdf" H 18350 -6850 50  0001 C CNN
 $EndComp
 $Comp
 L 74xx:74LS00 U23
-U 1 1 602B6867
-P 36950 42000
-F 0 "U23" H 37200 41900 50  0000 C CNN
-F 1 "74S00" H 37200 42150 50  0000 C CNN
-F 2 "" H 36950 42000 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 36950 42000 50  0001 C CNN
-	1    36950 42000
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS00 U23
-U 2 1 602B686D
-P 38350 41800
-F 0 "U23" H 38600 41700 50  0000 C CNN
-F 1 "74S00" H 38600 41950 50  0000 C CNN
-F 2 "" H 38350 41800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 38350 41800 50  0001 C CNN
-	2    38350 41800
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS00 U23
 U 3 1 602B6873
-P 24800 42200
-F 0 "U23" H 25050 42100 50  0000 C CNN
-F 1 "74S00" H 25050 42350 50  0000 C CNN
-F 2 "" H 24800 42200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 24800 42200 50  0001 C CNN
-	3    24800 42200
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS00 U23
-U 4 1 602B6879
-P 36950 41600
-F 0 "U23" H 37200 41500 50  0000 C CNN
-F 1 "74S00" H 37200 41750 50  0000 C CNN
-F 2 "" H 36950 41600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 36950 41600 50  0001 C CNN
-	4    36950 41600
+P 25050 41100
+F 0 "U23" H 25300 41000 50  0000 C CNN
+F 1 "74S00" H 25300 41250 50  0000 C CNN
+F 2 "" H 25050 41100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 25050 41100 50  0001 C CNN
+	3    25050 41100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3192,45 +3104,45 @@ $EndComp
 $Comp
 L 74xx:74LS32 U24
 U 1 1 602C0144
-P 27150 41950
-F 0 "U24" H 27400 41850 50  0000 C CNN
-F 1 "74LS32" H 27350 42100 50  0000 C CNN
-F 2 "" H 27150 41950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 27150 41950 50  0001 C CNN
-	1    27150 41950
+P 27750 42350
+F 0 "U24" H 28000 42250 50  0000 C CNN
+F 1 "74LS32" H 27950 42500 50  0000 C CNN
+F 2 "" H 27750 42350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 27750 42350 50  0001 C CNN
+	1    27750 42350
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS32 U24
 U 2 1 602C014A
-P 27150 41250
-F 0 "U24" H 27400 41150 50  0000 C CNN
-F 1 "74LS32" H 27350 41400 50  0000 C CNN
-F 2 "" H 27150 41250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 27150 41250 50  0001 C CNN
-	2    27150 41250
+P 27750 41650
+F 0 "U24" H 28000 41550 50  0000 C CNN
+F 1 "74LS32" H 27950 41800 50  0000 C CNN
+F 2 "" H 27750 41650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 27750 41650 50  0001 C CNN
+	2    27750 41650
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS32 U24
 U 3 1 602C0150
-P 27150 42300
-F 0 "U24" H 27400 42200 50  0000 C CNN
-F 1 "74LS32" H 27350 42450 50  0000 C CNN
-F 2 "" H 27150 42300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 27150 42300 50  0001 C CNN
-	3    27150 42300
+P 27750 42700
+F 0 "U24" H 28000 42600 50  0000 C CNN
+F 1 "74LS32" H 27950 42850 50  0000 C CNN
+F 2 "" H 27750 42700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 27750 42700 50  0001 C CNN
+	3    27750 42700
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS32 U24
 U 4 1 602C0156
-P 27150 41600
-F 0 "U24" H 27400 41500 50  0000 C CNN
-F 1 "74LS32" H 27350 41750 50  0000 C CNN
-F 2 "" H 27150 41600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 27150 41600 50  0001 C CNN
-	4    27150 41600
+P 27750 42000
+F 0 "U24" H 28000 41900 50  0000 C CNN
+F 1 "74LS32" H 27950 42150 50  0000 C CNN
+F 2 "" H 27750 42000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 27750 42000 50  0001 C CNN
+	4    27750 42000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3302,23 +3214,23 @@ $EndComp
 $Comp
 L power:GND #PWR0146
 U 1 1 602F47B5
-P 11850 3250
-F 0 "#PWR0146" H 11850 3000 50  0001 C CNN
-F 1 "GND" H 11855 3077 50  0000 C CNN
-F 2 "" H 11850 3250 50  0001 C CNN
-F 3 "" H 11850 3250 50  0001 C CNN
-	1    11850 3250
+P 12400 4250
+F 0 "#PWR0146" H 12400 4000 50  0001 C CNN
+F 1 "GND" H 12405 4077 50  0000 C CNN
+F 2 "" H 12400 4250 50  0001 C CNN
+F 3 "" H 12400 4250 50  0001 C CNN
+	1    12400 4250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0147
 U 1 1 602F5228
-P 10050 3250
-F 0 "#PWR0147" H 10050 3000 50  0001 C CNN
-F 1 "GND" H 10055 3077 50  0000 C CNN
-F 2 "" H 10050 3250 50  0001 C CNN
-F 3 "" H 10050 3250 50  0001 C CNN
-	1    10050 3250
+P 12400 2300
+F 0 "#PWR0147" H 12400 2050 50  0001 C CNN
+F 1 "GND" H 12405 2127 50  0000 C CNN
+F 2 "" H 12400 2300 50  0001 C CNN
+F 3 "" H 12400 2300 50  0001 C CNN
+	1    12400 2300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3641,36 +3553,14 @@ F 3 "" H 38650 27500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0180
-U 1 1 60311A51
-P 40000 45850
-F 0 "#PWR0180" H 40000 45600 50  0001 C CNN
-F 1 "GND" H 40005 45677 50  0000 C CNN
-F 2 "" H 40000 45850 50  0001 C CNN
-F 3 "" H 40000 45850 50  0001 C CNN
-	1    40000 45850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0181
-U 1 1 6031259A
-P 40000 40950
-F 0 "#PWR0181" H 40000 40700 50  0001 C CNN
-F 1 "GND" H 40005 40777 50  0000 C CNN
-F 2 "" H 40000 40950 50  0001 C CNN
-F 3 "" H 40000 40950 50  0001 C CNN
-	1    40000 40950
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0182
 U 1 1 60313098
-P 29300 45500
-F 0 "#PWR0182" H 29300 45250 50  0001 C CNN
-F 1 "GND" H 29305 45327 50  0000 C CNN
-F 2 "" H 29300 45500 50  0001 C CNN
-F 3 "" H 29300 45500 50  0001 C CNN
-	1    29300 45500
+P 29900 45900
+F 0 "#PWR0182" H 29900 45650 50  0001 C CNN
+F 1 "GND" H 29905 45727 50  0000 C CNN
+F 2 "" H 29900 45900 50  0001 C CNN
+F 3 "" H 29900 45900 50  0001 C CNN
+	1    29900 45900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3740,47 +3630,14 @@ F 3 "" H 12850 -4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0190
-U 1 1 6031E272
-P 40000 43500
-F 0 "#PWR0190" H 40000 43250 50  0001 C CNN
-F 1 "GND" H 40005 43327 50  0000 C CNN
-F 2 "" H 40000 43500 50  0001 C CNN
-F 3 "" H 40000 43500 50  0001 C CNN
-	1    40000 43500
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0191
 U 1 1 6031EC50
-P 29300 43150
-F 0 "#PWR0191" H 29300 42900 50  0001 C CNN
-F 1 "GND" H 29305 42977 50  0000 C CNN
-F 2 "" H 29300 43150 50  0001 C CNN
-F 3 "" H 29300 43150 50  0001 C CNN
-	1    29300 43150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0192
-U 1 1 6031F6CC
-P 40000 38400
-F 0 "#PWR0192" H 40000 38150 50  0001 C CNN
-F 1 "GND" H 40005 38227 50  0000 C CNN
-F 2 "" H 40000 38400 50  0001 C CNN
-F 3 "" H 40000 38400 50  0001 C CNN
-	1    40000 38400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0193
-U 1 1 60320188
-P 40000 35850
-F 0 "#PWR0193" H 40000 35600 50  0001 C CNN
-F 1 "GND" H 40005 35677 50  0000 C CNN
-F 2 "" H 40000 35850 50  0001 C CNN
-F 3 "" H 40000 35850 50  0001 C CNN
-	1    40000 35850
+P 29900 43550
+F 0 "#PWR0191" H 29900 43300 50  0001 C CNN
+F 1 "GND" H 29905 43377 50  0000 C CNN
+F 2 "" H 29900 43550 50  0001 C CNN
+F 3 "" H 29900 43550 50  0001 C CNN
+	1    29900 43550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4081,47 +3938,14 @@ F 3 "" H 21100 -7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0224
-U 1 1 6033B48A
-P 40000 41400
-F 0 "#PWR0224" H 40000 41250 50  0001 C CNN
-F 1 "+5V" H 40015 41573 50  0000 C CNN
-F 2 "" H 40000 41400 50  0001 C CNN
-F 3 "" H 40000 41400 50  0001 C CNN
-	1    40000 41400
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR0225
 U 1 1 6033C150
-P 29300 41250
-F 0 "#PWR0225" H 29300 41100 50  0001 C CNN
-F 1 "+5V" H 29315 41423 50  0000 C CNN
-F 2 "" H 29300 41250 50  0001 C CNN
-F 3 "" H 29300 41250 50  0001 C CNN
-	1    29300 41250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0226
-U 1 1 6033CBEE
-P 40000 36300
-F 0 "#PWR0226" H 40000 36150 50  0001 C CNN
-F 1 "+5V" H 40015 36473 50  0000 C CNN
-F 2 "" H 40000 36300 50  0001 C CNN
-F 3 "" H 40000 36300 50  0001 C CNN
-	1    40000 36300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0227
-U 1 1 6033D676
-P 40000 33750
-F 0 "#PWR0227" H 40000 33600 50  0001 C CNN
-F 1 "+5V" H 40015 33923 50  0000 C CNN
-F 2 "" H 40000 33750 50  0001 C CNN
-F 3 "" H 40000 33750 50  0001 C CNN
-	1    40000 33750
+P 29900 41650
+F 0 "#PWR0225" H 29900 41500 50  0001 C CNN
+F 1 "+5V" H 29915 41823 50  0000 C CNN
+F 2 "" H 29900 41650 50  0001 C CNN
+F 3 "" H 29900 41650 50  0001 C CNN
+	1    29900 41650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4215,12 +4039,12 @@ $EndComp
 $Comp
 L power:+5V #PWR0237
 U 1 1 603446A7
-P 29300 43600
-F 0 "#PWR0237" H 29300 43450 50  0001 C CNN
-F 1 "+5V" H 29315 43773 50  0000 C CNN
-F 2 "" H 29300 43600 50  0001 C CNN
-F 3 "" H 29300 43600 50  0001 C CNN
-	1    29300 43600
+P 29900 44000
+F 0 "#PWR0237" H 29900 43850 50  0001 C CNN
+F 1 "+5V" H 29915 44173 50  0000 C CNN
+F 2 "" H 29900 44000 50  0001 C CNN
+F 3 "" H 29900 44000 50  0001 C CNN
+	1    29900 44000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4232,28 +4056,6 @@ F 1 "+5V" H 38665 29173 50  0000 C CNN
 F 2 "" H 38650 29000 50  0001 C CNN
 F 3 "" H 38650 29000 50  0001 C CNN
 	1    38650 29000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0239
-U 1 1 6034BA9E
-P 40000 38850
-F 0 "#PWR0239" H 40000 38700 50  0001 C CNN
-F 1 "+5V" H 40015 39023 50  0000 C CNN
-F 2 "" H 40000 38850 50  0001 C CNN
-F 3 "" H 40000 38850 50  0001 C CNN
-	1    40000 38850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0240
-U 1 1 6034C432
-P 40000 43950
-F 0 "#PWR0240" H 40000 43800 50  0001 C CNN
-F 1 "+5V" H 40015 44123 50  0000 C CNN
-F 2 "" H 40000 43950 50  0001 C CNN
-F 3 "" H 40000 43950 50  0001 C CNN
-	1    40000 43950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4554,7 +4356,7 @@ Text Label 5950 26400 0    50   ~ 0
 Clk1
 Text Label 46250 40550 0    50   ~ 0
 Clk1
-Text Label 12900 8050 2    50   ~ 0
+Text Label 12050 8350 2    50   ~ 0
 Clk1
 Text Label 5000 27850 2    50   ~ 0
 ~BR
@@ -4593,7 +4395,7 @@ Text Label 45000 1700 2    50   ~ 0
 ~P1_IPL2
 Text Label 1600 27350 2    50   ~ 0
 ~370_INT_07
-Text Label 4650 24000 2    50   ~ 0
+Text Label 9550 4900 2    50   ~ 0
 ~370_INT_07
 Text Label 28000 28950 0    50   ~ 0
 ~370_INT_07
@@ -4722,8 +4524,6 @@ Text Label 8150 31950 2    50   ~ 0
 ~AS
 Text Label 26900 6050 2    50   ~ 0
 ~LDS
-Text Label 39500 45250 2    50   ~ 0
-~LDS
 Text Label 23550 38050 0    50   ~ 0
 A20
 Text Label 23550 38150 0    50   ~ 0
@@ -4742,8 +4542,6 @@ Text Label 23550 37450 0    50   ~ 0
 A14
 Text Label 26900 6250 2    50   ~ 0
 ~UDS
-Text Label 39500 44950 2    50   ~ 0
-~UDS
 Text Label 7500 16900 2    50   ~ 0
 ~FPU_Busy
 Text Label 7500 16800 2    50   ~ 0
@@ -4752,17 +4550,17 @@ Text Label 7500 18200 2    50   ~ 0
 FPU_CC0
 Text Label 7500 18300 2    50   ~ 0
 FPU_CC1
-Text Label 4650 24100 2    50   ~ 0
+Text Label 9550 5000 2    50   ~ 0
 FPU_CC1
-Text Label 4650 23700 2    50   ~ 0
+Text Label 9550 4600 2    50   ~ 0
 FPU_CC0
-Text Label 4650 24200 2    50   ~ 0
+Text Label 9550 5100 2    50   ~ 0
 ~FPU_Busy
-Text Label 4650 24300 2    50   ~ 0
+Text Label 9550 5200 2    50   ~ 0
 FPU_Ready
 Text Label 12050 6750 2    50   ~ 0
 FPU_Ready
-Text Label 12900 7950 2    50   ~ 0
+Text Label 12050 8250 2    50   ~ 0
 ~FPU_Busy
 Text Label 7350 17000 2    50   ~ 0
 ~P1_IPL0
@@ -4827,7 +4625,7 @@ Text Label 24200 2100 2    50   ~ 0
 ~AB_L_OE
 Text Label 24200 4150 2    50   ~ 0
 ~AB_L_OE
-Text Label 10550 2750 0    50   ~ 0
+Text Label 12900 1800 0    50   ~ 0
 ~AB_L_OE
 Text Label 23050 7650 0    50   ~ 0
 Address_Latch_Clock
@@ -4847,7 +4645,7 @@ Text Label 5450 8800 0    50   ~ 0
 PB?B_OE
 Text Label 6200 5750 2    50   ~ 0
 PB?0
-Text Label 26550 39000 0    50   ~ 0
+Text Label 27100 38300 0    50   ~ 0
 PB?0
 Text Label 7200 6050 0    50   ~ 0
 PB?7
@@ -4925,24 +4723,24 @@ Text Notes 6900 6850 0    79   ~ 16
 3
 Text Label 5450 8400 0    50   ~ 0
 PB?B_C
-Text Label 4650 24600 2    50   ~ 0
+Text Label 9550 5500 2    50   ~ 0
 Status_OE
-Text Label 5650 23600 0    50   ~ 0
+Text Label 10550 4500 0    50   ~ 0
 PB?15
-Text Label 5650 23700 0    50   ~ 0
+Text Label 10550 4600 0    50   ~ 0
 PB?0
-NoConn ~ 5650 23800
-Text Label 5650 23900 0    50   ~ 0
+NoConn ~ 10550 4700
+Text Label 10550 4800 0    50   ~ 0
 PB?8
-Text Label 5650 24000 0    50   ~ 0
+Text Label 10550 4900 0    50   ~ 0
 PB?9
-Text Label 5650 24100 0    50   ~ 0
+Text Label 10550 5000 0    50   ~ 0
 PB?1
-Text Label 5650 24200 0    50   ~ 0
+Text Label 10550 5100 0    50   ~ 0
 PB?7
-Text Label 5650 24300 0    50   ~ 0
+Text Label 10550 5200 0    50   ~ 0
 PB?6
-Text Label 4650 24500 2    50   ~ 0
+Text Label 9550 5400 2    50   ~ 0
 ~Clk1
 Text Label 12050 6850 2    50   ~ 0
 ~Clk1
@@ -4952,9 +4750,9 @@ Text Label 20750 8700 2    50   ~ 0
 ~Clk1
 Text Label 37900 7600 2    50   ~ 0
 ~Clk1
-Text Label 4650 23600 2    50   ~ 0
+Text Label 9550 4500 2    50   ~ 0
 PCINT_07
-NoConn ~ 4650 23800
+NoConn ~ 9550 4700
 Text Label 24200 6100 2    50   ~ 0
 Address_Latch_Clock
 Text Label 24200 6200 2    50   ~ 0
@@ -4974,21 +4772,21 @@ Text Label 24200 2000 2    50   ~ 0
 Address_Latch_Clock
 Text Label 24200 4050 2    50   ~ 0
 Address_Latch_Clock
-Text Label 26550 39300 0    50   ~ 0
+Text Label 27100 38600 0    50   ~ 0
 PB?3
-Text Label 26550 39100 0    50   ~ 0
+Text Label 27100 38400 0    50   ~ 0
 PB?1
-Text Label 26550 39200 0    50   ~ 0
+Text Label 27100 38500 0    50   ~ 0
 PB?2
-Text Label 26550 39400 0    50   ~ 0
+Text Label 27100 38700 0    50   ~ 0
 PB?4
-Text Label 26550 39500 0    50   ~ 0
+Text Label 27100 38800 0    50   ~ 0
 PB?5
-Text Label 26550 39600 0    50   ~ 0
+Text Label 27100 38900 0    50   ~ 0
 PB?6
-Text Label 26550 39700 0    50   ~ 0
+Text Label 27100 39000 0    50   ~ 0
 PB?11
-Text Label 25550 39900 2    50   ~ 0
+Text Label 26100 39200 2    50   ~ 0
 R-~W~_2
 Text Label 3550 9050 2    50   ~ 0
 R-~W~_2
@@ -4996,17 +4794,17 @@ Text Label 9800 30550 0    50   ~ 0
 R-~W~_2
 Text Label 35350 10250 2    50   ~ 0
 R-~W~_2
-Text Label 9550 2750 2    50   ~ 0
+Text Label 11900 1800 2    50   ~ 0
 R-~W~_2
 Text Label 2250 17500 2    50   ~ 0
 R-~W~_2
 Text Label 27200 36450 2    50   ~ 0
 R-~W~_2
-Text Label 25550 40000 2    50   ~ 0
+Text Label 26100 39300 2    50   ~ 0
 PAT_CE
 Text Label 45900 38050 2    50   ~ 0
 R-~W~_2
-Text Label 24850 40100 0    50   ~ 0
+Text Label 25400 39400 0    50   ~ 0
 PAT_CE
 Text Label 31100 4500 2    50   ~ 0
 Status2_3?
@@ -5094,31 +4892,31 @@ Text Label 18400 38900 2    50   ~ 0
 PAT2_D3
 Text Label 18400 39500 2    50   ~ 0
 PA12
-Text Label 28800 44900 2    50   ~ 0
+Text Label 29400 45300 2    50   ~ 0
 PA12
 Text Label 18400 39400 2    50   ~ 0
 PA13
-Text Label 28800 44600 2    50   ~ 0
+Text Label 29400 45000 2    50   ~ 0
 PA13
 Text Label 18400 39600 2    50   ~ 0
 PA14
-Text Label 28800 44300 2    50   ~ 0
+Text Label 29400 44700 2    50   ~ 0
 PA14
 Text Label 18400 39300 2    50   ~ 0
 PA15
-Text Label 28800 44000 2    50   ~ 0
+Text Label 29400 44400 2    50   ~ 0
 PA15
 Text Label 18400 39700 2    50   ~ 0
 PA16
-Text Label 28800 42550 2    50   ~ 0
+Text Label 29400 42950 2    50   ~ 0
 PA16
 Text Label 18400 39200 2    50   ~ 0
 PA17
-Text Label 28800 42250 2    50   ~ 0
+Text Label 29400 42650 2    50   ~ 0
 PA17
 Text Label 18400 39100 2    50   ~ 0
 PA18
-Text Label 28800 41950 2    50   ~ 0
+Text Label 29400 42350 2    50   ~ 0
 PA18
 Text Label 18400 39000 2    50   ~ 0
 PAT1_D8
@@ -5158,23 +4956,15 @@ Text Label 28650 6250 2    50   ~ 0
 P2_FC2
 Text Label 28650 4800 2    50   ~ 0
 P2_FC2
-Text Label 39500 36900 2    50   ~ 0
-A3
 Text Label 15650 8500 2    50   ~ 0
 A4
 Text Label 16500 7800 2    50   ~ 0
 A4
 Text Label 36550 10250 2    50   ~ 0
 A4
-Text Label 39500 37600 2    50   ~ 0
-A4
-Text Label 39500 42700 2    50   ~ 0
-A7
 Text Label 18200 7650 2    50   ~ 0
 A6
 Text Label 36550 10450 2    50   ~ 0
-A6
-Text Label 39500 40150 2    50   ~ 0
 A6
 Text Label 15650 8000 2    50   ~ 0
 A5
@@ -5182,66 +4972,52 @@ Text Label 16500 8150 2    50   ~ 0
 A5
 Text Label 36550 10350 2    50   ~ 0
 A5
-Text Label 39500 39450 2    50   ~ 0
-A5
-Text Label 39500 35050 2    50   ~ 0
-A2
 Text Label 15650 8600 2    50   ~ 0
 A1
 Text Label 5400 17800 2    50   ~ 0
 A1
 Text Label 16500 7900 2    50   ~ 0
 A1
-Text Label 39500 34350 2    50   ~ 0
-A1
-Text Label 26850 42400 2    50   ~ 0
+Text Label 27450 42800 2    50   ~ 0
 A15
 Text Label 14550 6100 2    50   ~ 0
 A12
-Text Label 28800 44800 2    50   ~ 0
+Text Label 29400 45200 2    50   ~ 0
 A12
 Text Label 16400 6150 2    50   ~ 0
 A10
-Text Label 39500 34950 2    50   ~ 0
-A10
 Text Label 16400 6350 2    50   ~ 0
-A8
-Text Label 39500 42000 2    50   ~ 0
 A8
 Text Label 14550 6650 2    50   ~ 0
 A15
 Text Label 16400 6250 2    50   ~ 0
 A9
-Text Label 39500 34250 2    50   ~ 0
-A9
 Text Label 16400 6050 2    50   ~ 0
-A11
-Text Label 39500 36800 2    50   ~ 0
 A11
 Text Label 14550 6450 2    50   ~ 0
 A13
-Text Label 28800 44500 2    50   ~ 0
+Text Label 29400 44900 2    50   ~ 0
 A13
 Text Label 14550 6300 2    50   ~ 0
 A14
-Text Label 28800 44200 2    50   ~ 0
+Text Label 29400 44600 2    50   ~ 0
 A14
-Text Label 26850 42050 2    50   ~ 0
+Text Label 27450 42450 2    50   ~ 0
 A16
 Text Label 26900 5100 2    50   ~ 0
 A23
 Text Label 14550 5950 2    50   ~ 0
 A23
-Text Label 26850 41150 2    50   ~ 0
+Text Label 27450 41550 2    50   ~ 0
 A18
-Text Label 26850 41700 2    50   ~ 0
+Text Label 27450 42100 2    50   ~ 0
 A17
 Text Label 19400 38900 0    50   ~ 0
 E_Parity
 Text Label 19900 38150 2    50   ~ 0
 E_Parity
 NoConn ~ 19400 39100
-Text Label 12350 2850 0    50   ~ 0
+Text Label 12900 3850 0    50   ~ 0
 11-1?_9
 Text Label 23950 10100 2    50   ~ 0
 11-1?_9
@@ -5306,7 +5082,7 @@ Text Label 17950 9100 2    50   ~ 0
 ~User_Space
 Text Label 28650 5100 2    50   ~ 0
 ~User_Space
-Text Label 24500 42100 2    50   ~ 0
+Text Label 24750 41000 2    50   ~ 0
 ~User_Space
 Text Label 4150 8900 0    50   ~ 0
 8-2?_8
@@ -5328,19 +5104,19 @@ Text Label 2250 16850 2    50   ~ 0
 12-2?_5
 Text Label 27450 35100 2    50   ~ 0
 12-2?_5
-Text Label 24250 40000 2    50   ~ 0
+Text Label 24800 39300 2    50   ~ 0
 12-2?_5
 Text Label 22600 13100 2    50   ~ 0
 12-2?_5
 Text Label 21050 10200 2    50   ~ 0
 12-2?_5
-Text Label 26400 42900 0    50   ~ 0
+Text Label 25900 41750 0    50   ~ 0
 14-4?_4
 Text Label 28650 5600 2    50   ~ 0
 14-4?_4
 Text Label 27200 35650 2    50   ~ 0
 14-4?_4
-Text Label 28800 45100 2    50   ~ 0
+Text Label 29400 45500 2    50   ~ 0
 14-4?_4
 Text Label 27500 4600 0    50   ~ 0
 9-2?_6
@@ -5395,7 +5171,7 @@ AS_1
 Text Label 8150 30550 2    50   ~ 0
 R-~W
 Text Label 26900 4600 2    50   ~ 0
-15-4?_9
+~Instruction_Fetch
 Text Label 22450 7550 2    50   ~ 0
 User_Space
 Text Label 19400 2500 2    50   ~ 0
@@ -5424,10 +5200,10 @@ Text Label 34500 7200 0    50   ~ 0
 9-3?_8
 Text Label 35150 7200 2    50   ~ 0
 9-3?_8
-Text Label 10550 2950 0    50   ~ 0
+Text Label 12900 2000 0    50   ~ 0
 10-1?_7
 Text Label 16150 3000 0    50   ~ 0
-15-4?_9
+~Instruction_Fetch
 Text Label 4850 8700 2    50   ~ 0
 10-1?_7
 Text Label 23950 10750 2    50   ~ 0
@@ -5438,9 +5214,9 @@ Text Label 8150 31750 2    50   ~ 0
 P-UP_12
 Text Label 33800 36900 2    50   ~ 0
 P-UP_12
-Text Label 13200 7750 0    50   ~ 0
+Text Label 12350 8050 0    50   ~ 0
 P-UP_12
-Text Label 13200 8350 0    50   ~ 0
+Text Label 12350 8650 0    50   ~ 0
 P-UP_12
 NoConn ~ 34800 37500
 NoConn ~ 34800 37400
@@ -5463,9 +5239,9 @@ Text Label 29000 35450 2    50   ~ 0
 NoConn ~ 33800 37800
 Text Label 21400 7750 0    50   ~ 0
 12-2?_6
-Text Label 9550 2950 2    50   ~ 0
+Text Label 11900 2000 2    50   ~ 0
 12-2?_6
-Text Label 11350 2950 2    50   ~ 0
+Text Label 11900 3950 2    50   ~ 0
 12-2?_6
 Text Label 22450 7750 2    50   ~ 0
 12-2?_6
@@ -5473,17 +5249,17 @@ Text Label 23950 9400 2    50   ~ 0
 12-2?_6
 Text Label 17000 6150 0    50   ~ 0
 10-3?_8
-Text Label 9550 2850 2    50   ~ 0
+Text Label 11900 1900 2    50   ~ 0
 10-3?_8
 Text Label 35350 10050 2    50   ~ 0
 10-3?_8
-Text Label 11350 2850 2    50   ~ 0
+Text Label 11900 3850 2    50   ~ 0
 10-3?_8
 Text Label 18200 7750 2    50   ~ 0
 10-3?_8
 Text Label 19600 10100 2    50   ~ 0
 10-3?_8
-NoConn ~ 10550 2850
+NoConn ~ 12900 1900
 Text Label 3700 17100 2    50   ~ 0
 10-1?_13
 Text Label 15150 6550 0    50   ~ 0
@@ -5502,10 +5278,6 @@ Text Label 16400 5850 2    50   ~ 0
 15_2?_6
 Text Label 19600 10000 2    50   ~ 0
 15_2?_6
-Text Label 19100 41850 0    50   ~ 0
-10-4?_3
-Text Label 19850 41850 2    50   ~ 0
-10-4?_3
 Text Label 32200 36900 2    50   ~ 0
 18-1?_2
 Text Label 36050 24250 0    50   ~ 0
@@ -5530,13 +5302,13 @@ Text Label 27500 5000 0    50   ~ 0
 A23orPAT1_D8
 Text Label 28650 5000 2    50   ~ 0
 A23orPAT1_D8
-Text Label 11350 2750 2    50   ~ 0
+Text Label 11900 3750 2    50   ~ 0
 ~R~-W
-Text Label 12350 2950 0    50   ~ 0
+Text Label 12900 3950 0    50   ~ 0
 11-1?_7
 Text Label 23950 9300 2    50   ~ 0
 11-1?_7
-NoConn ~ 12350 2750
+NoConn ~ 12900 3750
 Text Label 3700 17250 2    50   ~ 0
 11-1?_13
 Text Label 26100 30700 2    50   ~ 0
@@ -5565,7 +5337,7 @@ Text Label 37150 10700 0    50   ~ 0
 14-2?_12
 Text Label 37950 10600 2    50   ~ 0
 14-2?_12
-Text Label 13500 8150 0    50   ~ 0
+Text Label 12650 8450 0    50   ~ 0
 Clk1_Lt'd_FPU_Busy
 Text Label 12650 6950 0    50   ~ 0
 ~Status_Lt'd_FPU_Ready
@@ -5581,10 +5353,10 @@ Text Label 20850 41450 0    50   ~ 0
 19-1?_10
 Text Label 28650 5200 2    50   ~ 0
 19-1?_10
-Text Label 25800 43000 2    50   ~ 0
+Text Label 25300 41850 2    50   ~ 0
 19-1?_10
 NoConn ~ 24550 9300
-NoConn ~ 13500 7950
+NoConn ~ 12650 8250
 Text Label 45000 2100 2    50   ~ 0
 P-UP_8
 Text Label 35450 7600 0    50   ~ 0
@@ -5638,8 +5410,8 @@ Text Label 40550 10750 2    50   ~ 0
 OpReg_1
 Text Label 40550 10200 2    50   ~ 0
 OpReg_1
-Text Notes 42250 11450 0    79   ~ 16
-Proccessor 1/2 Bus Grant\nAck Interlock
+Text Notes 39700 12100 0    79   ~ 16
+Proccessor Switch Latch\nPatent No: 4,591,982\nFig. 2
 Wire Wire Line
 	10500 16750 10900 16750
 Wire Wire Line
@@ -5772,12 +5544,12 @@ Text Label 18500 2950 0    50   ~ 0
 FPU_Data-~Command
 Text Label 2250 16950 2    50   ~ 0
 FPU_Data-~Command
-Text Label 25100 42200 0    50   ~ 0
-22-1?_8
-Text Label 26600 40950 2    50   ~ 0
-22-1?_8
-Text Label 25800 42800 2    50   ~ 0
-22-1?_8
+Text Label 25350 41100 0    50   ~ 0
+CS_Address_Override
+Text Label 27200 41350 2    50   ~ 0
+CS_Address_Override
+Text Label 25300 41650 2    50   ~ 0
+CS_Address_Override
 Text Label 45900 38550 2    50   ~ 0
 M-Cable_43
 Text Label 43650 23200 2    50   ~ 0
@@ -5794,7 +5566,7 @@ Text Label 19600 9900 2    50   ~ 0
 16-1?_11
 Text Label 27200 36250 2    50   ~ 0
 12-2?_5
-Text Label 24250 40200 2    50   ~ 0
+Text Label 24800 39500 2    50   ~ 0
 16-3?_2
 Text Label 27200 36350 2    50   ~ 0
 16-3?_2
@@ -5815,11 +5587,11 @@ Wire Wire Line
 Connection ~ 15650 3400
 NoConn ~ 16150 3100
 Text Label 16150 2900 0    50   ~ 0
-15-4?_10
-Text Label 21250 43100 2    50   ~ 0
-15-4?_10
-Text Label 22600 42100 2    50   ~ 0
-15-4?_10
+~Operand_Access
+Text Label 17900 3350 2    50   ~ 0
+~Operand_Access
+Text Label 22850 41000 2    50   ~ 0
+~Operand_Access
 NoConn ~ 16150 2800
 NoConn ~ 16150 2600
 NoConn ~ 16150 2500
@@ -5836,39 +5608,25 @@ Text Label 45900 38250 2    50   ~ 0
 M-Cable_37
 Text Label 34900 8850 2    50   ~ 0
 M-Cable_37
-Text Label 39500 40650 2    50   ~ 0
-M-Cable_37
-Text Label 39500 45450 2    50   ~ 0
-M-Cable_37
-Text Label 39500 43200 2    50   ~ 0
-M-Cable_37
-Text Label 39500 38100 2    50   ~ 0
-M-Cable_37
-Text Label 39500 35550 2    50   ~ 0
-M-Cable_37
 Text Label 36550 8650 2    50   ~ 0
 M-Cable_37
 Text Label 35500 8850 0    50   ~ 0
 ~M-Cable_37
 Text Label 36550 8850 2    50   ~ 0
 ~M-Cable_37
-Text Label 21850 43100 0    50   ~ 0
-16-3?_6
-Text Label 22600 42500 2    50   ~ 0
-16-3?_6
+Text Label 18500 3350 0    50   ~ 0
+Operand_Access
+Text Label 22850 41400 2    50   ~ 0
+Operand_Access
 Wire Wire Line
-	22600 42500 22600 42600
+	22850 41400 22850 41500
 Text Label 44650 28700 0    50   ~ 0
 ISA_REFRESH
 Text Label 36550 9050 2    50   ~ 0
 ISA_REFRESH
-Text Label 36650 41900 2    50   ~ 0
-ISA_REFRESH
 Text Label 43650 24900 2    50   ~ 0
 ~ISA_REFRESH
 Text Label 44050 28700 2    50   ~ 0
-~ISA_REFRESH
-Text Label 36650 41500 2    50   ~ 0
 ~ISA_REFRESH
 Text Label 28750 31150 0    50   ~ 0
 ~OpReg_2
@@ -5916,11 +5674,7 @@ Text Label 33800 37100 2    50   ~ 0
 NoConn ~ 23600 12900
 Text Label 45050 26000 0    50   ~ 0
 ISA_BA01
-Text Label 39500 34150 2    50   ~ 0
-ISA_BA01
 Text Label 45050 25900 0    50   ~ 0
-ISA_BA02
-Text Label 39500 34850 2    50   ~ 0
 ISA_BA02
 Text Label 45050 24100 0    50   ~ 0
 ISA_AEN
@@ -5930,8 +5684,6 @@ Text Label 45050 25400 0    50   ~ 0
 ISA_BA07
 Text Label 22600 24050 2    50   ~ 0
 ISA_BA07
-Text Label 39500 42500 2    50   ~ 0
-ISA_BA07
 Text Label 45050 25500 0    50   ~ 0
 ISA_BA06
 Text Label 22600 24150 2    50   ~ 0
@@ -5939,8 +5691,6 @@ ISA_BA06
 Text Label 45050 25800 0    50   ~ 0
 ISA_BA03
 Text Label 22600 24250 2    50   ~ 0
-ISA_BA03
-Text Label 39500 36700 2    50   ~ 0
 ISA_BA03
 Wire Wire Line
 	43900 30350 43900 30450
@@ -5973,14 +5723,14 @@ OpReg_0
 Text Notes 44500 29550 0    300  ~ 60
 *
 Text Label 20850 41050 0    50   ~ 0
-19-1?_2
-Text Label 22600 42000 2    50   ~ 0
-19-1?_2
+Instr_Override_Latch
+Text Label 22850 40900 2    50   ~ 0
+Instr_Override_Latch
 Text Label 20850 41250 0    50   ~ 0
-19-1?_7
+Oper_Override_Latch
 NoConn ~ 20850 41150
-Text Label 22600 42400 2    50   ~ 0
-19-1?_7
+Text Label 22850 41300 2    50   ~ 0
+Oper_Override_Latch
 NoConn ~ 20850 41350
 NoConn ~ 20850 41550
 NoConn ~ 19850 41650
@@ -5998,27 +5748,17 @@ Text Label 45050 25200 0    50   ~ 0
 ISA_BA09
 Text Label 22600 24400 2    50   ~ 0
 ISA_BA09
-Text Label 39500 34050 2    50   ~ 0
-ISA_BA09
 Text Label 45050 25300 0    50   ~ 0
 ISA_BA08
 Text Label 22600 24500 2    50   ~ 0
-ISA_BA08
-Text Label 36650 41700 2    50   ~ 0
 ISA_BA08
 Text Label 45050 25600 0    50   ~ 0
 ISA_BA05
 Text Label 22600 24600 2    50   ~ 0
 ISA_BA05
-Text Label 39500 39250 2    50   ~ 0
-ISA_BA05
 Text Label 45050 25700 0    50   ~ 0
 ISA_BA04
 Text Label 22600 24700 2    50   ~ 0
-ISA_BA04
-Text Label 39500 39950 2    50   ~ 0
-ISA_BA06
-Text Label 39500 37400 2    50   ~ 0
 ISA_BA04
 Text Label 37150 10300 0    50   ~ 0
 19-3?_8
@@ -6067,101 +5807,53 @@ F 3 "http://www.ti.com/lit/ds/symlink/sn74ls51.pdf" H 21550 10300 50  0001 C CNN
 $EndComp
 Text Notes 20300 10750 0    50   ~ 0
 Note: 74S51 has two missing inputs compared to 74LS51
-Text Label 29800 43900 0    50   ~ 0
+Text Label 30400 44300 0    50   ~ 0
 20-3?_4
-Text Label 39500 41900 2    50   ~ 0
-20-3?_4
-Text Label 38650 41800 0    50   ~ 0
-22-1?_6
-Text Label 39500 41800 2    50   ~ 0
-22-1?_6
 Text Label 39150 29800 0    50   ~ 0
-MSA15
-Text Label 39500 41700 2    50   ~ 0
 MSA15
 Text Label 39100 25150 0    50   ~ 0
 MSA15
-Wire Wire Line
-	39500 42200 39000 42200
-Wire Wire Line
-	39000 42200 39000 42900
-Wire Wire Line
-	39000 43500 40000 43500
-Connection ~ 40000 43500
-Wire Wire Line
-	39500 42900 39000 42900
-Connection ~ 39000 42900
-Wire Wire Line
-	39000 42900 39000 43500
 Text Label 46400 36750 0    50   ~ 0
-M-Cable_8
-Text Label 40500 41700 0    50   ~ 0
 M-Cable_8
 Text Label 45900 36850 2    50   ~ 0
 M-Cable_9
-Text Label 40500 42400 0    50   ~ 0
-M-Cable_9
 Text Label 39150 29500 0    50   ~ 0
-MSA16
-Text Label 39500 42400 2    50   ~ 0
 MSA16
 Text Label 39100 26550 0    50   ~ 0
 MSA16
-Text Label 29800 42450 0    50   ~ 0
-21-2?_12
-Text Label 39500 42600 2    50   ~ 0
+Text Label 30400 42850 0    50   ~ 0
 21-2?_12
 Text Label 45900 38350 2    50   ~ 0
 M-Cable_39
-Text Label 39500 43100 2    50   ~ 0
-M-Cable_39
-Text Label 39500 40550 2    50   ~ 0
-M-Cable_39
-Text Label 39500 38000 2    50   ~ 0
-M-Cable_39
-Text Label 39500 35450 2    50   ~ 0
-M-Cable_39
-Text Label 29800 44200 0    50   ~ 0
+Text Label 30400 44600 0    50   ~ 0
 20-3?_7
-Text Label 39500 40050 2    50   ~ 0
-20-3?_7
-Text Label 29800 44500 0    50   ~ 0
+Text Label 30400 44900 0    50   ~ 0
 20-3?_9
-Text Label 39500 39350 2    50   ~ 0
-20-3?_9
-Text Label 29800 44800 0    50   ~ 0
-20-3?_12
-Text Label 39500 37500 2    50   ~ 0
+Text Label 30400 45200 0    50   ~ 0
 20-3?_12
 Wire Wire Line
-	28800 45200 28800 45500
+	29400 45600 29400 45900
 Wire Wire Line
-	28800 45500 29300 45500
-Connection ~ 29300 45500
-Text Label 23600 42300 0    50   ~ 0
-21-1?_8
-Text Label 24500 42300 2    50   ~ 0
-21-1?_8
+	29400 45900 29900 45900
+Connection ~ 29900 45900
+Text Label 23850 41200 0    50   ~ 0
+~CS_Address_Override
 NoConn ~ 1400 1500
 NoConn ~ 1400 1700
 NoConn ~ 1400 1900
 NoConn ~ 2400 1600
-NoConn ~ 28800 41550
-NoConn ~ 28800 41650
-NoConn ~ 29800 41550
-Text Label 29800 41850 0    50   ~ 0
+NoConn ~ 29400 41950
+NoConn ~ 29400 42050
+NoConn ~ 30400 41950
+Text Label 30400 42250 0    50   ~ 0
 21-2?_7
-Text Label 39500 44650 2    50   ~ 0
-21-2?_7
-Text Label 29800 42150 0    50   ~ 0
-21-2?_9
-Text Label 39500 44350 2    50   ~ 0
+Text Label 30400 42550 0    50   ~ 0
 21-2?_9
 Wire Wire Line
-	28800 42850 28800 43150
+	29400 43250 29400 43550
 Wire Wire Line
-	28800 43150 29300 43150
-Connection ~ 29300 43150
+	29400 43550 29900 43550
+Connection ~ 29900 43550
 Text Label 45050 24700 0    50   ~ 0
 ISA_BA14
 Text Label 35300 26050 2    50   ~ 0
@@ -6178,21 +5870,15 @@ Text Label 35300 26650 2    50   ~ 0
 ISA_BA16
 Text Label 39150 29900 0    50   ~ 0
 MSA13
-Text Label 39500 39150 2    50   ~ 0
-MSA13
 Text Label 39100 24950 0    50   ~ 0
 MSA13
 Text Label 39150 29700 0    50   ~ 0
-MSA17
-Text Label 39500 44250 2    50   ~ 0
 MSA17
 Text Label 39100 26650 0    50   ~ 0
 MSA17
 Wire Wire Line
 	38150 29600 38150 29700
 Text Label 39150 29600 0    50   ~ 0
-MSA18
-Text Label 39500 44550 2    50   ~ 0
 MSA18
 Text Label 39100 26750 0    50   ~ 0
 MSA18
@@ -6209,8 +5895,6 @@ ISA_BA13
 Text Label 35300 25750 2    50   ~ 0
 ISA_BA13
 Text Label 39150 29400 0    50   ~ 0
-MSA14
-Text Label 39500 39850 2    50   ~ 0
 MSA14
 Text Label 39100 25050 0    50   ~ 0
 MSA14
@@ -6274,108 +5958,33 @@ Wire Wire Line
 Wire Wire Line
 	35300 27250 35800 27250
 Connection ~ 35800 27250
-Text Label 37250 42000 0    50   ~ 0
-22-1?_3
-Text Label 38050 41900 2    50   ~ 0
-22-1?_3
-Text Label 37250 41600 0    50   ~ 0
-22-1?_11
-Text Label 38050 41700 2    50   ~ 0
-22-1?_11
-Wire Wire Line
-	39500 37100 39000 37100
-Wire Wire Line
-	39000 37100 39000 37800
-Wire Wire Line
-	39000 37800 39500 37800
-Wire Wire Line
-	39000 37800 39000 38400
-Wire Wire Line
-	39000 38400 40000 38400
-Connection ~ 39000 37800
-Connection ~ 40000 38400
 Text Label 45050 25000 0    50   ~ 0
-ISA_BA11
-Text Label 39500 36600 2    50   ~ 0
 ISA_BA11
 Text Label 45050 24900 0    50   ~ 0
 ISA_BA12
-Text Label 39500 37300 2    50   ~ 0
-ISA_BA12
 Text Label 46400 36550 0    50   ~ 0
-M-Cable_4
-Text Label 40500 36600 0    50   ~ 0
 M-Cable_4
 Text Label 45900 36650 2    50   ~ 0
 M-Cable_5
-Text Label 40500 37300 0    50   ~ 0
-M-Cable_5
-Wire Wire Line
-	39500 34550 39000 34550
-Wire Wire Line
-	39000 34550 39000 35250
-Wire Wire Line
-	39000 35850 40000 35850
-Connection ~ 40000 35850
-Wire Wire Line
-	39500 35250 39000 35250
-Connection ~ 39000 35250
-Wire Wire Line
-	39000 35250 39000 35850
-Wire Wire Line
-	39500 39650 39000 39650
-Wire Wire Line
-	39000 39650 39000 40350
-Wire Wire Line
-	39000 40950 40000 40950
-Connection ~ 40000 40950
-Wire Wire Line
-	39500 40350 39000 40350
-Connection ~ 39000 40350
-Wire Wire Line
-	39000 40350 39000 40950
 Text Label 46400 36650 0    50   ~ 0
 M-Cable_6
-Text Label 40500 39150 0    50   ~ 0
-M-Cable_6
 Text Label 45900 36750 2    50   ~ 0
-M-Cable_7
-Text Label 40500 39850 0    50   ~ 0
 M-Cable_7
 NoConn ~ 38200 25250
 NoConn ~ 39100 25250
 Text Label 46400 36450 0    50   ~ 0
 M-Cable_2
-Text Label 40500 34050 0    50   ~ 0
-M-Cable_2
 Text Label 45900 36550 2    50   ~ 0
-M-Cable_3
-Text Label 40500 34750 0    50   ~ 0
 M-Cable_3
 Text Label 45050 25100 0    50   ~ 0
 ISA_BA10
-Text Label 39500 34750 2    50   ~ 0
-ISA_BA10
-Wire Wire Line
-	39500 45550 39500 45850
-Wire Wire Line
-	39500 45850 40000 45850
-Connection ~ 40000 45850
 Text Label 46400 37750 0    50   ~ 0
 M-Cable_28
-Text Label 40500 44250 0    50   ~ 0
-M-Cable_28
 Text Label 45900 37850 2    50   ~ 0
-M-Cable_29
-Text Label 40500 44550 0    50   ~ 0
 M-Cable_29
 Text Label 45900 37950 2    50   ~ 0
 M-Cable_31
 Text Label 46400 37950 0    50   ~ 0
-M-Cable_32
-Text Label 40500 44850 0    50   ~ 0
-M-Cable_31
-Text Label 40500 45150 0    50   ~ 0
 M-Cable_32
 NoConn ~ 39100 26850
 NoConn ~ 38200 26850
@@ -6488,18 +6097,12 @@ Text Label 44900 29850 0    50   ~ 0
 ISA_OSC_Drv
 Text Label 44900 29750 0    50   ~ 0
 ISA_BA00_Drv
-Text Label 39500 45150 2    50   ~ 0
-ISA_SBHE_Drv
 Text Label 9900 16850 2    50   ~ 0
 ISA_OSC_Drv
 Text Label 10700 17700 2    50   ~ 0
 ISA_OSC_Drv
 Text Label 1400 3200 2    50   ~ 0
 ISA_OSC_Drv
-Text Label 36650 42100 2    50   ~ 0
-ISA_BA00_Drv
-Text Label 39500 44850 2    50   ~ 0
-ISA_BA00_Drv
 Text Label 24000 23800 2    50   ~ 0
 ISA_BA00_Drv
 Text Notes 36550 31650 0    79   ~ 16
@@ -7158,40 +6761,40 @@ Text Label 18200 7400 2    50   ~ 0
 FPU_~Data~-Command
 Text Label 5400 17600 2    50   ~ 0
 FPU_~Data~-Command
-Text Label 22600 42200 2    50   ~ 0
+Text Label 22850 41100 2    50   ~ 0
 FPU_~Data~-Command
 Text Label 26200 34550 0    50   ~ 0
 16-3?_2
-Text Notes 28400 46050 0    79   ~ 16
+Text Notes 29000 46450 0    79   ~ 16
 Mux\nPatent No: 4,714,993\nFig. 2
 Wire Notes Line
-	28350 40850 28350 46200
+	28950 41250 28950 46600
 Wire Notes Line
-	28350 46200 30300 46200
+	28950 46600 30900 46600
 Wire Notes Line
-	30300 46200 30300 40850
+	30900 46600 30900 41250
 Wire Notes Line
-	30300 40850 28350 40850
+	30900 41250 28950 41250
 Wire Wire Line
-	26600 40950 26600 41350
+	27200 41350 27200 41750
 Wire Wire Line
-	26600 41350 26850 41350
+	27200 41750 27450 41750
 Wire Wire Line
-	26850 41500 26600 41500
+	27450 41900 27200 41900
 Wire Wire Line
-	26600 41500 26600 41350
-Connection ~ 26600 41350
+	27200 41900 27200 41750
+Connection ~ 27200 41750
 Wire Wire Line
-	26600 41500 26600 41850
+	27200 41900 27200 42250
 Wire Wire Line
-	26600 41850 26850 41850
-Connection ~ 26600 41500
+	27200 42250 27450 42250
+Connection ~ 27200 41900
 Wire Wire Line
-	26600 41850 26600 42200
+	27200 42250 27200 42600
 Wire Wire Line
-	26600 42200 26850 42200
-Connection ~ 26600 41850
-Text Label 28800 42750 2    50   ~ 0
+	27200 42600 27450 42600
+Connection ~ 27200 42250
+Text Label 29400 43150 2    50   ~ 0
 14-4?_4
 Text Notes 16600 35650 0    79   ~ 16
 Address Translate Mode Reg?\nPatent No: 4,714,993\nFig. 2
@@ -7201,9 +6804,9 @@ Text Label 9200 30550 2    50   ~ 0
 ~R~-W
 Text Label 1200 27650 2    50   ~ 0
 ~P1_HALT
-Text Notes 9400 3650 0    79   ~ 16
+Text Notes 11750 2700 0    79   ~ 16
 FPU/Reg? Read Decode
-Text Notes 11150 3650 0    79   ~ 16
+Text Notes 11700 4650 0    79   ~ 16
 FPU/Reg? Write Decode
 Wire Wire Line
 	4300 17000 4800 17000
@@ -7231,29 +6834,29 @@ Wire Wire Line
 	3250 16900 3700 16900
 Connection ~ 3700 16900
 Wire Wire Line
-	28800 41850 28250 41850
+	29400 42250 28850 42250
 Wire Wire Line
-	28250 41850 28250 41250
+	28850 42250 28850 41650
 Wire Wire Line
-	28250 41250 27450 41250
+	28850 41650 28050 41650
 Wire Wire Line
-	27450 41600 28150 41600
+	28050 42000 28750 42000
 Wire Wire Line
-	28150 41600 28150 42150
+	28750 42000 28750 42550
 Wire Wire Line
-	28150 42150 28800 42150
+	28750 42550 29400 42550
 Wire Wire Line
-	28050 42450 28050 41950
+	28650 42850 28650 42350
 Wire Wire Line
-	28050 41950 27450 41950
+	28650 42350 28050 42350
 Wire Wire Line
-	28050 42450 28800 42450
+	28650 42850 29400 42850
 Wire Wire Line
-	27450 42300 27950 42300
+	28050 42700 28550 42700
 Wire Wire Line
-	27950 42300 27950 43900
+	28550 42700 28550 44300
 Wire Wire Line
-	27950 43900 28800 43900
+	28550 44300 29400 44300
 Text Notes 19450 42900 0    79   ~ 16
 Storage Selection Override Reg\nPatent No: 4,591,982\nFig. 2 OL1/OL2
 Wire Notes Line
@@ -7268,8 +6871,8 @@ Text Label 21850 8800 0    50   ~ 0
 M-Cable_45
 Text Notes 15300 7700 0    79   ~ 16
 FPU addressed 5F2X (hex) range\nPatent No: 4,814,977\nCol 6 Row 35
-Text Notes 15650 6750 0    79   ~ 16
-FPU Address A8-A15 Decode 5FXX?
+Text Notes 14100 6900 0    79   ~ 16
+Hardware Registers Address A8-A15 Decode 5FXX?
 Text Label 41550 12150 2    50   ~ 0
 12-2?_6
 Wire Notes Line
@@ -7336,39 +6939,39 @@ NoConn ~ 23600 12500
 Text Label 23600 12400 0    50   ~ 0
 18-1?_7
 NoConn ~ 23600 12300
-NoConn ~ 12350 2250
-Text Label 12350 2350 0    50   ~ 0
+NoConn ~ 12900 3250
+Text Label 12900 3350 0    50   ~ 0
 11-1?_14
-Text Label 12350 2450 0    50   ~ 0
+Text Label 12900 3450 0    50   ~ 0
 11-1?_13
-NoConn ~ 12350 2550
-NoConn ~ 12350 2650
+NoConn ~ 12900 3550
+NoConn ~ 12900 3650
 Text Label 23600 12200 0    50   ~ 0
 18-1?_2
-NoConn ~ 10550 2250
-Text Label 10550 2450 0    50   ~ 0
+NoConn ~ 12900 1300
+Text Label 12900 1500 0    50   ~ 0
 10-1?_13
-Text Label 11350 2350 2    50   ~ 0
+Text Label 11900 3350 2    50   ~ 0
 A5
-Text Label 9550 2350 2    50   ~ 0
+Text Label 11900 1400 2    50   ~ 0
 A5
-Text Label 11350 2450 2    50   ~ 0
+Text Label 11900 3450 2    50   ~ 0
 A6
-Text Label 9550 2450 2    50   ~ 0
+Text Label 11900 1500 2    50   ~ 0
 A6
-Text Label 11350 2250 2    50   ~ 0
+Text Label 11900 3250 2    50   ~ 0
 A4
-Text Label 9550 2250 2    50   ~ 0
+Text Label 11900 1300 2    50   ~ 0
 A4
 Text Label 22600 12400 2    50   ~ 0
 PAT2_D3
 Text Label 22600 12200 2    50   ~ 0
 PAT2_D1
-Text Label 10550 2550 0    50   ~ 0
+Text Label 12900 1600 0    50   ~ 0
 Status2?_OE
-Text Label 10550 2650 0    50   ~ 0
+Text Label 12900 1700 0    50   ~ 0
 ~AB_H_OE
-Text Label 10550 2350 0    50   ~ 0
+Text Label 12900 1400 0    50   ~ 0
 Status_OE
 $Comp
 L power:+5V #PWR0216
@@ -7384,23 +6987,23 @@ $EndComp
 $Comp
 L power:+5V #PWR0212
 U 1 1 6032D0DC
-P 11850 1950
-F 0 "#PWR0212" H 11850 1800 50  0001 C CNN
-F 1 "+5V" H 11865 2123 50  0000 C CNN
-F 2 "" H 11850 1950 50  0001 C CNN
-F 3 "" H 11850 1950 50  0001 C CNN
-	1    11850 1950
+P 12400 2950
+F 0 "#PWR0212" H 12400 2800 50  0001 C CNN
+F 1 "+5V" H 12415 3123 50  0000 C CNN
+F 2 "" H 12400 2950 50  0001 C CNN
+F 3 "" H 12400 2950 50  0001 C CNN
+	1    12400 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0211
 U 1 1 6032C640
-P 10050 1950
-F 0 "#PWR0211" H 10050 1800 50  0001 C CNN
-F 1 "+5V" H 10065 2123 50  0000 C CNN
-F 2 "" H 10050 1950 50  0001 C CNN
-F 3 "" H 10050 1950 50  0001 C CNN
-	1    10050 1950
+P 12400 1000
+F 0 "#PWR0211" H 12400 850 50  0001 C CNN
+F 1 "+5V" H 12415 1173 50  0000 C CNN
+F 2 "" H 12400 1000 50  0001 C CNN
+F 3 "" H 12400 1000 50  0001 C CNN
+	1    12400 1000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -7428,23 +7031,436 @@ $EndComp
 $Comp
 L 74xx:74LS138 U12
 U 1 1 5FFB3A3C
-P 11850 2550
-F 0 "U12" H 12000 3000 50  0000 C CNN
-F 1 "74LS138" H 11600 3000 50  0000 C CNN
-F 2 "" H 11850 2550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 11850 2550 50  0001 C CNN
-	1    11850 2550
+P 12400 3550
+F 0 "U12" H 12550 4000 50  0000 C CNN
+F 1 "74LS138" H 12150 4000 50  0000 C CNN
+F 2 "" H 12400 3550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 12400 3550 50  0001 C CNN
+	1    12400 3550
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS138 U11
 U 1 1 5FF77CC2
-P 10050 2550
-F 0 "U11" H 10200 3000 50  0000 C CNN
-F 1 "74LS138" H 9800 3000 50  0000 C CNN
-F 2 "" H 10050 2550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 10050 2550 50  0001 C CNN
-	1    10050 2550
+P 12400 1600
+F 0 "U11" H 12550 2050 50  0000 C CNN
+F 1 "74LS138" H 12150 2050 50  0000 C CNN
+F 2 "" H 12400 1600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 12400 1600 50  0001 C CNN
+	1    12400 1600
 	1    0    0    -1  
 $EndComp
+Text Notes 24900 6300 0    79   ~ 16
+2
+Text Notes 12050 8000 0    551  ~ 110
+*
+Text Notes 13750 5600 0    79   ~ 16
+If !UserSpace or A23=0 or 
+Text Label 39500 44850 2    50   ~ 0
+ISA_BA00_Drv
+Text Label 36650 42100 2    50   ~ 0
+ISA_BA00_Drv
+Text Label 39500 45150 2    50   ~ 0
+ISA_SBHE_Drv
+Text Label 40500 45150 0    50   ~ 0
+M-Cable_32
+Text Label 40500 44850 0    50   ~ 0
+M-Cable_31
+Text Label 40500 44550 0    50   ~ 0
+M-Cable_29
+Text Label 40500 44250 0    50   ~ 0
+M-Cable_28
+Connection ~ 40000 45850
+Wire Wire Line
+	39500 45850 40000 45850
+Wire Wire Line
+	39500 45550 39500 45850
+Text Label 39500 34750 2    50   ~ 0
+ISA_BA10
+Text Label 40500 34750 0    50   ~ 0
+M-Cable_3
+Text Label 40500 34050 0    50   ~ 0
+M-Cable_2
+Text Label 40500 39850 0    50   ~ 0
+M-Cable_7
+Text Label 40500 39150 0    50   ~ 0
+M-Cable_6
+Wire Wire Line
+	39000 40350 39000 40950
+Connection ~ 39000 40350
+Wire Wire Line
+	39500 40350 39000 40350
+Connection ~ 40000 40950
+Wire Wire Line
+	39000 40950 40000 40950
+Wire Wire Line
+	39000 39650 39000 40350
+Wire Wire Line
+	39500 39650 39000 39650
+Wire Wire Line
+	39000 35250 39000 35850
+Connection ~ 39000 35250
+Wire Wire Line
+	39500 35250 39000 35250
+Connection ~ 40000 35850
+Wire Wire Line
+	39000 35850 40000 35850
+Wire Wire Line
+	39000 34550 39000 35250
+Wire Wire Line
+	39500 34550 39000 34550
+Text Label 40500 37300 0    50   ~ 0
+M-Cable_5
+Text Label 40500 36600 0    50   ~ 0
+M-Cable_4
+Text Label 39500 37300 2    50   ~ 0
+ISA_BA12
+Text Label 39500 36600 2    50   ~ 0
+ISA_BA11
+Connection ~ 40000 38400
+Connection ~ 39000 37800
+Wire Wire Line
+	39000 38400 40000 38400
+Wire Wire Line
+	39000 37800 39000 38400
+Wire Wire Line
+	39000 37800 39500 37800
+Wire Wire Line
+	39000 37100 39000 37800
+Wire Wire Line
+	39500 37100 39000 37100
+Text Label 38050 41700 2    50   ~ 0
+22-1?_11
+Text Label 37250 41600 0    50   ~ 0
+22-1?_11
+Text Label 38050 41900 2    50   ~ 0
+22-1?_3
+Text Label 37250 42000 0    50   ~ 0
+22-1?_3
+Text Label 39500 39850 2    50   ~ 0
+MSA14
+Text Label 39500 44550 2    50   ~ 0
+MSA18
+Text Label 39500 44250 2    50   ~ 0
+MSA17
+Text Label 39500 39150 2    50   ~ 0
+MSA13
+Text Label 39500 44350 2    50   ~ 0
+21-2?_9
+Text Label 39500 44650 2    50   ~ 0
+21-2?_7
+Text Label 39500 37500 2    50   ~ 0
+20-3?_12
+Text Label 39500 39350 2    50   ~ 0
+20-3?_9
+Text Label 39500 40050 2    50   ~ 0
+20-3?_7
+Text Label 39500 35450 2    50   ~ 0
+M-Cable_39
+Text Label 39500 38000 2    50   ~ 0
+M-Cable_39
+Text Label 39500 40550 2    50   ~ 0
+M-Cable_39
+Text Label 39500 43100 2    50   ~ 0
+M-Cable_39
+Text Label 39500 42600 2    50   ~ 0
+21-2?_12
+Text Label 39500 42400 2    50   ~ 0
+MSA16
+Text Label 40500 42400 0    50   ~ 0
+M-Cable_9
+Text Label 40500 41700 0    50   ~ 0
+M-Cable_8
+Wire Wire Line
+	39000 42900 39000 43500
+Connection ~ 39000 42900
+Wire Wire Line
+	39500 42900 39000 42900
+Connection ~ 40000 43500
+Wire Wire Line
+	39000 43500 40000 43500
+Wire Wire Line
+	39000 42200 39000 42900
+Wire Wire Line
+	39500 42200 39000 42200
+Text Label 39500 41700 2    50   ~ 0
+MSA15
+Text Label 39500 41800 2    50   ~ 0
+22-1?_6
+Text Label 38650 41800 0    50   ~ 0
+22-1?_6
+Text Label 39500 41900 2    50   ~ 0
+20-3?_4
+Text Label 39500 37400 2    50   ~ 0
+ISA_BA04
+Text Label 39500 39950 2    50   ~ 0
+ISA_BA06
+Text Label 39500 39250 2    50   ~ 0
+ISA_BA05
+Text Label 36650 41700 2    50   ~ 0
+ISA_BA08
+Text Label 39500 34050 2    50   ~ 0
+ISA_BA09
+Text Label 39500 36700 2    50   ~ 0
+ISA_BA03
+Text Label 39500 42500 2    50   ~ 0
+ISA_BA07
+Text Label 39500 34850 2    50   ~ 0
+ISA_BA02
+Text Label 39500 34150 2    50   ~ 0
+ISA_BA01
+Text Label 36650 41500 2    50   ~ 0
+~ISA_REFRESH
+Text Label 36650 41900 2    50   ~ 0
+ISA_REFRESH
+Text Label 39500 35550 2    50   ~ 0
+M-Cable_37
+Text Label 39500 38100 2    50   ~ 0
+M-Cable_37
+Text Label 39500 43200 2    50   ~ 0
+M-Cable_37
+Text Label 39500 45450 2    50   ~ 0
+M-Cable_37
+Text Label 39500 40650 2    50   ~ 0
+M-Cable_37
+Text Label 39500 36800 2    50   ~ 0
+A11
+Text Label 39500 34250 2    50   ~ 0
+A9
+Text Label 39500 42000 2    50   ~ 0
+A8
+Text Label 39500 34950 2    50   ~ 0
+A10
+Text Label 39500 34350 2    50   ~ 0
+A1
+Text Label 39500 35050 2    50   ~ 0
+A2
+Text Label 39500 39450 2    50   ~ 0
+A5
+Text Label 39500 40150 2    50   ~ 0
+A6
+Text Label 39500 42700 2    50   ~ 0
+A7
+Text Label 39500 37600 2    50   ~ 0
+A4
+Text Label 39500 36900 2    50   ~ 0
+A3
+Text Label 39500 44950 2    50   ~ 0
+~UDS
+Text Label 39500 45250 2    50   ~ 0
+~LDS
+$Comp
+L power:+5V #PWR0240
+U 1 1 6034C432
+P 40000 43950
+F 0 "#PWR0240" H 40000 43800 50  0001 C CNN
+F 1 "+5V" H 40015 44123 50  0000 C CNN
+F 2 "" H 40000 43950 50  0001 C CNN
+F 3 "" H 40000 43950 50  0001 C CNN
+	1    40000 43950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0239
+U 1 1 6034BA9E
+P 40000 38850
+F 0 "#PWR0239" H 40000 38700 50  0001 C CNN
+F 1 "+5V" H 40015 39023 50  0000 C CNN
+F 2 "" H 40000 38850 50  0001 C CNN
+F 3 "" H 40000 38850 50  0001 C CNN
+	1    40000 38850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0227
+U 1 1 6033D676
+P 40000 33750
+F 0 "#PWR0227" H 40000 33600 50  0001 C CNN
+F 1 "+5V" H 40015 33923 50  0000 C CNN
+F 2 "" H 40000 33750 50  0001 C CNN
+F 3 "" H 40000 33750 50  0001 C CNN
+	1    40000 33750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0226
+U 1 1 6033CBEE
+P 40000 36300
+F 0 "#PWR0226" H 40000 36150 50  0001 C CNN
+F 1 "+5V" H 40015 36473 50  0000 C CNN
+F 2 "" H 40000 36300 50  0001 C CNN
+F 3 "" H 40000 36300 50  0001 C CNN
+	1    40000 36300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0224
+U 1 1 6033B48A
+P 40000 41400
+F 0 "#PWR0224" H 40000 41250 50  0001 C CNN
+F 1 "+5V" H 40015 41573 50  0000 C CNN
+F 2 "" H 40000 41400 50  0001 C CNN
+F 3 "" H 40000 41400 50  0001 C CNN
+	1    40000 41400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0193
+U 1 1 60320188
+P 40000 35850
+F 0 "#PWR0193" H 40000 35600 50  0001 C CNN
+F 1 "GND" H 40005 35677 50  0000 C CNN
+F 2 "" H 40000 35850 50  0001 C CNN
+F 3 "" H 40000 35850 50  0001 C CNN
+	1    40000 35850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0192
+U 1 1 6031F6CC
+P 40000 38400
+F 0 "#PWR0192" H 40000 38150 50  0001 C CNN
+F 1 "GND" H 40005 38227 50  0000 C CNN
+F 2 "" H 40000 38400 50  0001 C CNN
+F 3 "" H 40000 38400 50  0001 C CNN
+	1    40000 38400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0190
+U 1 1 6031E272
+P 40000 43500
+F 0 "#PWR0190" H 40000 43250 50  0001 C CNN
+F 1 "GND" H 40005 43327 50  0000 C CNN
+F 2 "" H 40000 43500 50  0001 C CNN
+F 3 "" H 40000 43500 50  0001 C CNN
+	1    40000 43500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0181
+U 1 1 6031259A
+P 40000 40950
+F 0 "#PWR0181" H 40000 40700 50  0001 C CNN
+F 1 "GND" H 40005 40777 50  0000 C CNN
+F 2 "" H 40000 40950 50  0001 C CNN
+F 3 "" H 40000 40950 50  0001 C CNN
+	1    40000 40950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0180
+U 1 1 60311A51
+P 40000 45850
+F 0 "#PWR0180" H 40000 45600 50  0001 C CNN
+F 1 "GND" H 40005 45677 50  0000 C CNN
+F 2 "" H 40000 45850 50  0001 C CNN
+F 3 "" H 40000 45850 50  0001 C CNN
+	1    40000 45850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U23
+U 4 1 602B6879
+P 36950 41600
+F 0 "U23" H 37200 41500 50  0000 C CNN
+F 1 "74S00" H 37200 41750 50  0000 C CNN
+F 2 "" H 36950 41600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 36950 41600 50  0001 C CNN
+	4    36950 41600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U23
+U 2 1 602B686D
+P 38350 41800
+F 0 "U23" H 38600 41700 50  0000 C CNN
+F 1 "74S00" H 38600 41950 50  0000 C CNN
+F 2 "" H 38350 41800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 38350 41800 50  0001 C CNN
+	2    38350 41800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U23
+U 1 1 602B6867
+P 36950 42000
+F 0 "U23" H 37200 41900 50  0000 C CNN
+F 1 "74S00" H 37200 42150 50  0000 C CNN
+F 2 "" H 36950 42000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 36950 42000 50  0001 C CNN
+	1    36950 42000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS157 U64
+U 1 1 6028B3A9
+P 40000 44850
+F 0 "U64" H 40150 45600 50  0000 C CNN
+F 1 "74S157" H 39750 45600 50  0000 C CNN
+F 2 "" H 40000 44850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS157" H 40000 44850 50  0001 C CNN
+	1    40000 44850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS153 U47
+U 1 1 602843FB
+P 40000 34750
+F 0 "U47" H 40150 35600 50  0000 C CNN
+F 1 "74LS153" H 39750 35600 50  0000 C CNN
+F 2 "" H 40000 34750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS153" H 40000 34750 50  0001 C CNN
+	1    40000 34750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS153 U63
+U 1 1 6026A529
+P 40000 39850
+F 0 "U63" H 40150 40700 50  0000 C CNN
+F 1 "74LS153" H 39750 40700 50  0000 C CNN
+F 2 "" H 40000 39850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS153" H 40000 39850 50  0001 C CNN
+	1    40000 39850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS153 U46
+U 1 1 602693A1
+P 40000 37300
+F 0 "U46" H 40150 38150 50  0000 C CNN
+F 1 "74LS153" H 39750 38150 50  0000 C CNN
+F 2 "" H 40000 37300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS153" H 40000 37300 50  0001 C CNN
+	1    40000 37300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS153 U44
+U 1 1 60262EEB
+P 40000 42400
+F 0 "U44" H 40150 43250 50  0000 C CNN
+F 1 "74LS153" H 39750 43250 50  0000 C CNN
+F 2 "" H 40000 42400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS153" H 40000 42400 50  0001 C CNN
+	1    40000 42400
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	28250 41250 28250 42900
+Wire Notes Line
+	28250 42900 27100 42900
+Wire Notes Line
+	27100 42900 27100 41250
+Wire Notes Line
+	27100 41250 28250 41250
+Text Notes 27100 41200 0    79   ~ 16
+Control Storage Address Override\nPatent No: 4,591,982\nFig. 2 Item: 20
+Text Notes 42250 11700 0    79   ~ 16
+Processor 2 Selected out of POR
+Wire Wire Line
+	23850 41200 24750 41200
+Wire Wire Line
+	19850 41850 19100 41850
 $EndSCHEMATC
