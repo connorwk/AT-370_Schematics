@@ -976,7 +976,7 @@ PAT2_D2
 Text Label 29800 37150 0    50   ~ 0
 PAT2_D1
 Text Label 29800 37450 0    50   ~ 0
-PAT2_D4
+PA_Parity
 $Comp
 L power:GND #PWR0130
 U 1 1 5FE4B21C
@@ -991,15 +991,15 @@ $EndComp
 $Comp
 L 74xx:74LS241 U70
 U 1 1 5FE4EC39
-P 34300 37300
-F 0 "U70" H 34500 37950 50  0000 C CNN
-F 1 "74S241" H 34050 37950 50  0000 C CNN
-F 2 "" H 34300 37300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS241" H 34300 37300 50  0001 C CNN
-	1    34300 37300
+P 34800 39000
+F 0 "U70" H 35000 39650 50  0000 C CNN
+F 1 "74S241" H 34550 39650 50  0000 C CNN
+F 2 "" H 34800 39000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS241" H 34800 39000 50  0001 C CNN
+	1    34800 39000
 	1    0    0    -1  
 $EndComp
-Text Notes 34150 37650 0    79   ~ 16
+Text Notes 34650 39350 0    79   ~ 16
 '241
 Wire Wire Line
 	28800 37450 28800 37550
@@ -1074,23 +1074,23 @@ PB?9
 $Comp
 L power:+5V #PWR0131
 U 1 1 5FE6CBAF
-P 34300 36500
-F 0 "#PWR0131" H 34300 36350 50  0001 C CNN
-F 1 "+5V" H 34315 36673 50  0000 C CNN
-F 2 "" H 34300 36500 50  0001 C CNN
-F 3 "" H 34300 36500 50  0001 C CNN
-	1    34300 36500
+P 34800 38200
+F 0 "#PWR0131" H 34800 38050 50  0001 C CNN
+F 1 "+5V" H 34815 38373 50  0000 C CNN
+F 2 "" H 34800 38200 50  0001 C CNN
+F 3 "" H 34800 38200 50  0001 C CNN
+	1    34800 38200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0132
 U 1 1 5FE6D38D
-P 34300 38100
-F 0 "#PWR0132" H 34300 37850 50  0001 C CNN
-F 1 "GND" H 34305 37927 50  0000 C CNN
-F 2 "" H 34300 38100 50  0001 C CNN
-F 3 "" H 34300 38100 50  0001 C CNN
-	1    34300 38100
+P 34800 39800
+F 0 "#PWR0132" H 34800 39550 50  0001 C CNN
+F 1 "GND" H 34805 39627 50  0000 C CNN
+F 2 "" H 34800 39800 50  0001 C CNN
+F 3 "" H 34800 39800 50  0001 C CNN
+	1    34800 39800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1214,37 +1214,37 @@ Wire Wire Line
 $Comp
 L 74xx:74LS280 U7
 U 1 1 5FE7DBC2
-P 17300 39350
-F 0 "U7" H 17500 39900 50  0000 C CNN
-F 1 "74S280" H 17050 39900 50  0000 C CNN
-F 2 "" H 17300 39350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS280" H 17300 39350 50  0001 C CNN
-	1    17300 39350
+P 14550 39300
+F 0 "U7" H 14750 39850 50  0000 C CNN
+F 1 "74S280" H 14300 39850 50  0000 C CNN
+F 2 "" H 14550 39300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS280" H 14550 39300 50  0001 C CNN
+	1    14550 39300
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0137
 U 1 1 5FE7FEF1
-P 17300 38650
-F 0 "#PWR0137" H 17300 38500 50  0001 C CNN
-F 1 "+5V" H 17315 38823 50  0000 C CNN
-F 2 "" H 17300 38650 50  0001 C CNN
-F 3 "" H 17300 38650 50  0001 C CNN
-	1    17300 38650
+P 14550 38600
+F 0 "#PWR0137" H 14550 38450 50  0001 C CNN
+F 1 "+5V" H 14565 38773 50  0000 C CNN
+F 2 "" H 14550 38600 50  0001 C CNN
+F 3 "" H 14550 38600 50  0001 C CNN
+	1    14550 38600
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0138
 U 1 1 5FE81752
-P 17300 40050
-F 0 "#PWR0138" H 17300 39800 50  0001 C CNN
-F 1 "GND" H 17305 39877 50  0000 C CNN
-F 2 "" H 17300 40050 50  0001 C CNN
-F 3 "" H 17300 40050 50  0001 C CNN
-	1    17300 40050
+P 14550 40000
+F 0 "#PWR0138" H 14550 39750 50  0001 C CNN
+F 1 "GND" H 14555 39827 50  0000 C CNN
+F 2 "" H 14550 40000 50  0001 C CNN
+F 3 "" H 14550 40000 50  0001 C CNN
+	1    14550 40000
 	1    0    0    -1  
 $EndComp
-Text Notes 17150 39600 0    79   ~ 16
+Text Notes 14400 39550 0    79   ~ 16
 '280
 $Comp
 L 74xx:74LS04 U33
@@ -1282,12 +1282,12 @@ $EndComp
 $Comp
 L 74xx:74LS04 U33
 U 4 1 5FEBE4D6
-P 19700 2500
-F 0 "U33" H 19850 2400 50  0000 C CNN
-F 1 "74LS04" H 19850 2600 50  0000 C CNN
-F 2 "" H 19700 2500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 19700 2500 50  0001 C CNN
-	4    19700 2500
+P 19850 2500
+F 0 "U33" H 20000 2400 50  0000 C CNN
+F 1 "74LS04" H 20000 2600 50  0000 C CNN
+F 2 "" H 19850 2500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 19850 2500 50  0001 C CNN
+	4    19850 2500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1326,23 +1326,23 @@ $EndComp
 $Comp
 L 74xx:74LS86 U31
 U 1 1 5FECB45F
-P 18950 37950
-F 0 "U31" H 19150 37850 50  0000 C CNN
-F 1 "74S86" H 19150 38100 50  0000 C CNN
-F 2 "" H 18950 37950 50  0001 C CNN
-F 3 "74xx/74ls86.pdf" H 18950 37950 50  0001 C CNN
-	1    18950 37950
+P 15500 37950
+F 0 "U31" H 15700 37850 50  0000 C CNN
+F 1 "74S86" H 15700 38100 50  0000 C CNN
+F 2 "" H 15500 37950 50  0001 C CNN
+F 3 "74xx/74ls86.pdf" H 15500 37950 50  0001 C CNN
+	1    15500 37950
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS86 U31
 U 2 1 5FECF793
-P 17250 38050
-F 0 "U31" H 17450 37950 50  0000 C CNN
-F 1 "74S86" H 17450 38200 50  0000 C CNN
-F 2 "" H 17250 38050 50  0001 C CNN
-F 3 "74xx/74ls86.pdf" H 17250 38050 50  0001 C CNN
-	2    17250 38050
+P 14500 38150
+F 0 "U31" H 14700 38050 50  0000 C CNN
+F 1 "74S86" H 14700 38300 50  0000 C CNN
+F 2 "" H 14500 38150 50  0001 C CNN
+F 3 "74xx/74ls86.pdf" H 14500 38150 50  0001 C CNN
+	2    14500 38150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1359,12 +1359,12 @@ $EndComp
 $Comp
 L 74xx:74LS86 U31
 U 4 1 5FED1977
-P 20200 38050
-F 0 "U31" H 20400 37950 50  0000 C CNN
-F 1 "74S86" H 20400 38200 50  0000 C CNN
-F 2 "" H 20200 38050 50  0001 C CNN
-F 3 "74xx/74ls86.pdf" H 20200 38050 50  0001 C CNN
-	4    20200 38050
+P 16550 38050
+F 0 "U31" H 16750 37950 50  0000 C CNN
+F 1 "74S86" H 16750 38200 50  0000 C CNN
+F 2 "" H 16550 38050 50  0001 C CNN
+F 3 "74xx/74ls86.pdf" H 16550 38050 50  0001 C CNN
+	4    16550 38050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1590,12 +1590,12 @@ $EndComp
 $Comp
 L 74xx:74LS08 U50
 U 2 1 5FF45E9C
-P 18250 9000
-F 0 "U50" H 18500 8900 50  0000 C CNN
-F 1 "74LS08" H 18500 9150 50  0000 C CNN
-F 2 "" H 18250 9000 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 18250 9000 50  0001 C CNN
-	2    18250 9000
+P 18200 12400
+F 0 "U50" H 18450 12300 50  0000 C CNN
+F 1 "74LS08" H 18450 12550 50  0000 C CNN
+F 2 "" H 18200 12400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 18200 12400 50  0001 C CNN
+	2    18200 12400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1649,7 +1649,7 @@ F 3 "" H 22150 38350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 22150 37750 2    50   ~ 0
-PAT2_D4
+PA_Parity
 Text Label 22150 37450 2    50   ~ 0
 PAT2_D1
 Text Label 22150 37550 2    50   ~ 0
@@ -1782,12 +1782,12 @@ $EndComp
 $Comp
 L 74xx:74LS32 U71
 U 2 1 5FF916CC
-P 32500 37000
-F 0 "U71" H 32750 36900 50  0000 C CNN
-F 1 "74LS32" H 32700 37150 50  0000 C CNN
-F 2 "" H 32500 37000 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 32500 37000 50  0001 C CNN
-	2    32500 37000
+P 33150 38650
+F 0 "U71" H 33400 38550 50  0000 C CNN
+F 1 "74LS32" H 33350 38800 50  0000 C CNN
+F 2 "" H 33150 38650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 33150 38650 50  0001 C CNN
+	2    33150 38650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1837,12 +1837,12 @@ $EndComp
 $Comp
 L 74xx:74LS00 U35
 U 2 1 5FFCB127
-P 32000 35850
-F 0 "U35" H 32250 35750 50  0000 C CNN
-F 1 "74S00" H 32250 36000 50  0000 C CNN
-F 2 "" H 32000 35850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 32000 35850 50  0001 C CNN
-	2    32000 35850
+P 14500 37750
+F 0 "U35" H 14750 37650 50  0000 C CNN
+F 1 "74S00" H 14750 37900 50  0000 C CNN
+F 2 "" H 14500 37750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 14500 37750 50  0001 C CNN
+	2    14500 37750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2255,12 +2255,12 @@ $EndComp
 $Comp
 L 74xx:74LS10 U38
 U 2 1 60054BBB
-P 21050 8800
-F 0 "U38" H 21300 8700 50  0000 C CNN
-F 1 "74S10" H 21300 8950 50  0000 C CNN
-F 2 "" H 21050 8800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 21050 8800 50  0001 C CNN
-	2    21050 8800
+P 21000 12200
+F 0 "U38" H 21250 12100 50  0000 C CNN
+F 1 "74S10" H 21250 12350 50  0000 C CNN
+F 2 "" H 21000 12200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 21000 12200 50  0001 C CNN
+	2    21000 12200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2376,23 +2376,23 @@ $EndComp
 $Comp
 L 74xx:74LS10 U16
 U 2 1 600A38D1
-P 27500 35650
-F 0 "U16" H 27750 35550 50  0000 C CNN
-F 1 "74LS10" H 27750 35800 50  0000 C CNN
-F 2 "" H 27500 35650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 27500 35650 50  0001 C CNN
-	2    27500 35650
+P 27500 35600
+F 0 "U16" H 27750 35500 50  0000 C CNN
+F 1 "74LS10" H 27750 35750 50  0000 C CNN
+F 2 "" H 27500 35600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 27500 35600 50  0001 C CNN
+	2    27500 35600
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS10 U16
 U 3 1 600A38D7
-P 19900 10000
-F 0 "U16" H 20150 9900 50  0000 C CNN
-F 1 "74LS10" H 20150 10150 50  0000 C CNN
-F 2 "" H 19900 10000 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 19900 10000 50  0001 C CNN
-	3    19900 10000
+P 19850 13400
+F 0 "U16" H 20100 13300 50  0000 C CNN
+F 1 "74LS10" H 20100 13550 50  0000 C CNN
+F 2 "" H 19850 13400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 19850 13400 50  0001 C CNN
+	3    19850 13400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2409,12 +2409,12 @@ $EndComp
 $Comp
 L 74xx:74LS10 U39
 U 1 1 600AB0C4
-P 27500 36350
-F 0 "U39" H 27750 36250 50  0000 C CNN
-F 1 "74LS10" H 27750 36500 50  0000 C CNN
-F 2 "" H 27500 36350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 27500 36350 50  0001 C CNN
-	1    27500 36350
+P 27500 35250
+F 0 "U39" H 27750 35150 50  0000 C CNN
+F 1 "74LS10" H 27750 35400 50  0000 C CNN
+F 2 "" H 27500 35250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 27500 35250 50  0001 C CNN
+	1    27500 35250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2431,12 +2431,12 @@ $EndComp
 $Comp
 L 74xx:74LS10 U39
 U 3 1 600AB0D0
-P 27750 35000
-F 0 "U39" H 28000 34900 50  0000 C CNN
-F 1 "74LS10" H 28000 35150 50  0000 C CNN
-F 2 "" H 27750 35000 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 27750 35000 50  0001 C CNN
-	3    27750 35000
+P 27500 34900
+F 0 "U39" H 27750 34800 50  0000 C CNN
+F 1 "74LS10" H 27750 35050 50  0000 C CNN
+F 2 "" H 27500 34900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 27500 34900 50  0001 C CNN
+	3    27500 34900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2519,12 +2519,12 @@ $EndComp
 $Comp
 L 74xx:74LS00 U17
 U 4 1 600CFD9B
-P 18450 9900
-F 0 "U17" H 18700 9800 50  0000 C CNN
-F 1 "74S00" H 18700 10050 50  0000 C CNN
-F 2 "" H 18450 9900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 18450 9900 50  0001 C CNN
-	4    18450 9900
+P 18400 13300
+F 0 "U17" H 18650 13200 50  0000 C CNN
+F 1 "74S00" H 18650 13450 50  0000 C CNN
+F 2 "" H 18400 13300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 18400 13300 50  0001 C CNN
+	4    18400 13300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2871,12 +2871,12 @@ $EndComp
 $Comp
 L 74xx:74LS27 U59
 U 1 1 6014D56F
-P 19600 8900
-F 0 "U59" H 19800 8800 50  0000 C CNN
-F 1 "74LS27" H 19800 9050 50  0000 C CNN
-F 2 "" H 19600 8900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 19600 8900 50  0001 C CNN
-	1    19600 8900
+P 19550 12300
+F 0 "U59" H 19750 12200 50  0000 C CNN
+F 1 "74LS27" H 19750 12450 50  0000 C CNN
+F 2 "" H 19550 12300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 19550 12300 50  0001 C CNN
+	1    19550 12300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3696,17 +3696,6 @@ F 3 "" H 20350 42250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0199
-U 1 1 60323FD4
-P 32050 39850
-F 0 "#PWR0199" H 32050 39600 50  0001 C CNN
-F 1 "GND" H 32055 39677 50  0000 C CNN
-F 2 "" H 32050 39850 50  0001 C CNN
-F 3 "" H 32050 39850 50  0001 C CNN
-	1    32050 39850
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0200
 U 1 1 60324C85
 P 12850 -6350
@@ -4421,7 +4410,7 @@ Text Label 1600 30350 2    50   ~ 0
 ~P1_HALT
 Wire Wire Line
 	1600 27650 1200 27650
-Text Label 22050 10300 0    50   ~ 0
+Text Label 22000 13700 0    50   ~ 0
 ~DTACK
 Text Label 18700 43050 0    50   ~ 0
 ~Reset
@@ -4605,11 +4594,11 @@ Text Label 31100 4800 2    50   ~ 0
 ~R~-W
 Text Label 8750 30550 0    50   ~ 0
 ~R~-W
-Text Label 32200 37100 2    50   ~ 0
+Text Label 32850 38750 2    50   ~ 0
 ~R~-W
 Text Label 2250 16650 2    50   ~ 0
 ~R~-W
-Text Label 27450 35000 2    50   ~ 0
+Text Label 27200 34900 2    50   ~ 0
 ~R~-W
 Text Label 4450 8700 2    50   ~ 0
 ~R~-W
@@ -4738,7 +4727,7 @@ Text Label 12050 7400 2    50   ~ 0
 ~Clk1
 Text Label 28550 7750 2    50   ~ 0
 ~Clk1
-Text Label 20750 8700 2    50   ~ 0
+Text Label 20700 12100 2    50   ~ 0
 ~Clk1
 Text Label 39150 7300 2    50   ~ 0
 ~Clk1
@@ -4790,7 +4779,7 @@ Text Label 11900 1800 2    50   ~ 0
 R-~W~_2
 Text Label 2250 17500 2    50   ~ 0
 R-~W~_2
-Text Label 27200 36450 2    50   ~ 0
+Text Label 27200 35350 2    50   ~ 0
 R-~W~_2
 Text Label 45900 38050 2    50   ~ 0
 R-~W~_2
@@ -4850,7 +4839,7 @@ Text Label 29150 7650 0    50   ~ 0
 Clock_BER_REG
 Text Label 2250 17600 2    50   ~ 0
 Clock_BER_REG
-Text Label 27200 35550 2    50   ~ 0
+Text Label 27200 35500 2    50   ~ 0
 Clock_BER_REG
 Text Label 28800 38050 2    50   ~ 0
 6-2?_OEa
@@ -4858,11 +4847,11 @@ Text Label 28800 38150 2    50   ~ 0
 6-2?_OEb
 Text Label 29000 35000 2    50   ~ 0
 6-2?_OEa
-Text Label 28050 35000 0    50   ~ 0
+Text Label 27800 34900 0    50   ~ 0
 6-2?_OEa
 Text Label 29000 35250 2    50   ~ 0
 6-2?_OEa
-Text Label 27800 36350 0    50   ~ 0
+Text Label 27800 35250 0    50   ~ 0
 6-2?_OEb
 Text Label 19850 41050 2    50   ~ 0
 PB?0
@@ -4878,56 +4867,56 @@ Text Label 26250 30900 2    50   ~ 0
 PB?15
 Text Label 26250 29150 2    50   ~ 0
 PB?9
-Text Label 16800 38950 2    50   ~ 0
+Text Label 14050 38900 2    50   ~ 0
 PAT2_D3
-Text Label 16800 39550 2    50   ~ 0
+Text Label 14050 39500 2    50   ~ 0
 PA12
 Text Label 29400 45300 2    50   ~ 0
 PA12
-Text Label 16800 39450 2    50   ~ 0
+Text Label 14050 39400 2    50   ~ 0
 PA13
 Text Label 29400 45000 2    50   ~ 0
 PA13
-Text Label 16800 39650 2    50   ~ 0
+Text Label 14050 39600 2    50   ~ 0
 PA14
 Text Label 29400 44700 2    50   ~ 0
 PA14
-Text Label 16800 39350 2    50   ~ 0
+Text Label 14050 39300 2    50   ~ 0
 PA15
 Text Label 29400 44400 2    50   ~ 0
 PA15
-Text Label 16800 39750 2    50   ~ 0
+Text Label 14050 39700 2    50   ~ 0
 PA16
 Text Label 29400 42950 2    50   ~ 0
 PA16
-Text Label 16800 39250 2    50   ~ 0
+Text Label 14050 39200 2    50   ~ 0
 PA17
 Text Label 29400 42650 2    50   ~ 0
 PA17
-Text Label 16800 39150 2    50   ~ 0
+Text Label 14050 39100 2    50   ~ 0
 PA18
 Text Label 29400 42350 2    50   ~ 0
 PA18
-Text Label 16800 39050 2    50   ~ 0
+Text Label 14050 39000 2    50   ~ 0
 PAT1_D8
 Text Label 26900 4200 2    50   ~ 0
 PAT1_D8
-Text Label 16950 37950 2    50   ~ 0
+Text Label 14200 38050 2    50   ~ 0
 PAT2_D1
-Text Label 34800 37000 0    50   ~ 0
+Text Label 35300 38700 0    50   ~ 0
 PAT2_D1
-Text Label 34800 36900 0    50   ~ 0
+Text Label 35300 38600 0    50   ~ 0
 PAT2_D2
-Text Label 16950 38150 2    50   ~ 0
+Text Label 14200 38250 2    50   ~ 0
 PAT2_D2
-Text Label 34800 37100 0    50   ~ 0
+Text Label 35300 38800 0    50   ~ 0
 PAT2_D3
 Text Label 28650 4700 2    50   ~ 0
 PAT2_D3
-Text Label 31700 35950 2    50   ~ 0
-PAT2_D4
-Text Label 34800 36800 0    50   ~ 0
-PAT2_D4
+Text Label 14200 37850 2    50   ~ 0
+PA_Parity
+Text Label 35300 38500 0    50   ~ 0
+PA_Parity
 NoConn ~ 22150 37850
 NoConn ~ 22150 37950
 NoConn ~ 22150 38050
@@ -4938,7 +4927,7 @@ Text Label 22150 38550 2    50   ~ 0
 ~PAT2_WE
 Text Label 30500 34900 0    50   ~ 0
 ~PAT1_WE
-Text Label 31700 35750 2    50   ~ 0
+Text Label 14200 37650 2    50   ~ 0
 ~PAT2_WE
 Text Label 30500 35450 0    50   ~ 0
 ~PAT2_WE
@@ -5002,11 +4991,9 @@ Text Label 27450 41550 2    50   ~ 0
 A18
 Text Label 27450 42100 2    50   ~ 0
 A17
-Text Label 17800 38950 0    50   ~ 0
+Text Label 15050 38900 0    50   ~ 0
 E_Parity
-Text Label 19900 38150 2    50   ~ 0
-E_Parity
-NoConn ~ 17800 39150
+NoConn ~ 15050 39100
 Text Label 12900 3850 0    50   ~ 0
 ~Write_SYS_CNTL
 Text Label 18400 44250 2    50   ~ 0
@@ -5023,27 +5010,23 @@ Text Label 34700 7000 2    50   ~ 0
 No_Bus_Error
 Text Label 2250 17700 2    50   ~ 0
 No_Bus_Error
-Text Label 27200 35750 2    50   ~ 0
+Text Label 27200 35700 2    50   ~ 0
 No_Bus_Error
 Text Label 20400 45300 0    50   ~ 0
-9-1?_9
+BAGIT_Bit
 Text Label 28650 3700 2    50   ~ 0
-9-1?_9
-Text Label 32300 35850 0    50   ~ 0
-11-2?_6
-Text Label 18650 37850 2    50   ~ 0
-11-2?_6
+BAGIT_Bit
 NoConn ~ 1450 2150
 NoConn ~ 1450 2350
 NoConn ~ 2050 2250
 Text Label 32150 6900 0    50   ~ 0
 Any_Bus_Err
 Text Label 20400 44350 0    50   ~ 0
-9-1?_6
+~Off-Boundry_Bit
 Text Label 28650 5650 2    50   ~ 0
-9-1?_6
+~Off-Boundry_Bit
 Text Label 2250 16750 2    50   ~ 0
-9-1?_6
+~Off-Boundry_Bit
 Text Label 42950 11750 0    50   ~ 0
 Proc1_Active
 Text Label 28650 5750 2    50   ~ 0
@@ -5053,25 +5036,25 @@ Proc1_Active
 Text Label 37350 10500 2    50   ~ 0
 Proc1_Active
 Text Label 20400 44150 0    50   ~ 0
-9-1?_5
+Off-Boundry_Bit
 Text Label 3150 8950 2    50   ~ 0
-9-1?_5
-Text Label 17950 8900 2    50   ~ 0
-9-1?_5
+Off-Boundry_Bit
+Text Label 17900 12300 2    50   ~ 0
+Off-Boundry_Bit
 Text Label 18200 7300 2    50   ~ 0
-9-1?_5
-Text Label 18150 9800 2    50   ~ 0
-9-1?_5
-Text Label 20000 2500 0    50   ~ 0
-~User_Space
+Off-Boundry_Bit
+Text Label 18100 13200 2    50   ~ 0
+Off-Boundry_Bit
+Text Label 20150 2500 0    50   ~ 0
+~Control_Store
 Text Label 3150 9050 2    50   ~ 0
-~User_Space
-Text Label 17950 9100 2    50   ~ 0
-~User_Space
+~Control_Store
+Text Label 17900 12500 2    50   ~ 0
+~Control_Store
 Text Label 28650 4400 2    50   ~ 0
-~User_Space
+~Control_Store
 Text Label 24650 41150 2    50   ~ 0
-~User_Space
+~Control_Store
 Text Label 3750 9100 0    50   ~ 0
 8-2?_8
 Text Label 21400 7550 0    50   ~ 0
@@ -5088,30 +5071,28 @@ Text Label 36250 6700 0    50   ~ 0
 12-2?_5
 Text Label 2250 16850 2    50   ~ 0
 12-2?_5
-Text Label 27450 35100 2    50   ~ 0
+Text Label 27200 35000 2    50   ~ 0
 12-2?_5
 Text Label 24800 39200 2    50   ~ 0
 12-2?_5
-Text Label 31550 39550 2    50   ~ 0
-12-2?_5
-Text Label 21050 10200 2    50   ~ 0
+Text Label 21000 13600 2    50   ~ 0
 12-2?_5
 Text Label 28050 45500 0    50   ~ 0
 ~Bypass_PAT
 Text Label 28650 4900 2    50   ~ 0
 ~Bypass_PAT
-Text Label 27200 35650 2    50   ~ 0
+Text Label 27200 35600 2    50   ~ 0
 ~Bypass_PAT
 Text Label 27500 3900 0    50   ~ 0
 Instruction_Fetch
-Text Label 20500 38050 0    50   ~ 0
-7-2?_11
+Text Label 16850 38050 0    50   ~ 0
+PAT_Parity
 Text Label 28800 37450 2    50   ~ 0
-7-2?_11
+PAT_Parity
 Text Label 28650 5300 2    50   ~ 0
-7-2?_11
-Text Label 33800 36800 2    50   ~ 0
-7-2?_11
+PAT_Parity
+Text Label 34300 38500 2    50   ~ 0
+PAT_Parity
 Text Label 28650 6100 2    50   ~ 0
 A23
 Text Label 19000 43450 0    50   ~ 0
@@ -5133,7 +5114,7 @@ P-UP_13
 Text Label 20100 45100 0    50   ~ 0
 P-UP_13
 Text Label 20400 45500 0    50   ~ 0
-9-1?_7
+~BAGIT_Bit
 Text Label 20100 44550 0    50   ~ 0
 ~Reset
 Text Label 20100 45700 0    50   ~ 0
@@ -5155,13 +5136,13 @@ R-~W
 Text Label 26900 3900 2    50   ~ 0
 ~Instruction_Fetch
 Text Label 22450 7550 2    50   ~ 0
-User_Space
-Text Label 19400 2500 2    50   ~ 0
-User_Space
+Control_Store
+Text Label 19550 2500 2    50   ~ 0
+Control_Store
 Text Label 16400 6450 2    50   ~ 0
-User_Space
+Control_Store
 Text Label 14550 5750 2    50   ~ 0
-User_Space
+Control_Store
 Text Label 8750 31500 0    50   ~ 0
 AS_2
 Text Label 28850 8050 0    50   ~ 0
@@ -5170,9 +5151,9 @@ Text Label 15150 6200 0    50   ~ 0
 A12&A14
 Text Label 16400 5950 2    50   ~ 0
 A12&A14
-Text Label 18550 9000 0    50   ~ 0
+Text Label 18500 12400 0    50   ~ 0
 9-3?_6
-Text Label 19300 9000 2    50   ~ 0
+Text Label 19250 12400 2    50   ~ 0
 9-3?_6
 Text Label 12900 2000 0    50   ~ 0
 ~Read_OBATCH
@@ -5186,31 +5167,31 @@ Text Label 45000 2500 2    50   ~ 0
 P-UP_12
 Text Label 8150 31750 2    50   ~ 0
 P-UP_12
-Text Label 33800 36900 2    50   ~ 0
+Text Label 34300 38600 2    50   ~ 0
 P-UP_12
 Text Label 12350 8600 0    50   ~ 0
 P-UP_12
 Text Label 12350 9200 0    50   ~ 0
 P-UP_12
-NoConn ~ 34800 37500
-NoConn ~ 34800 37400
-Text Label 32800 37000 0    50   ~ 0
+NoConn ~ 35300 39200
+NoConn ~ 35300 39100
+Text Label 33450 38650 0    50   ~ 0
 10-4?_6
-Text Label 33800 37000 2    50   ~ 0
+Text Label 34300 38700 2    50   ~ 0
 10-4?_6
-NoConn ~ 34800 37300
-NoConn ~ 34800 37200
-NoConn ~ 33800 37200
-NoConn ~ 33800 37300
-NoConn ~ 33800 37400
-NoConn ~ 33800 37500
-Text Label 27800 35650 0    50   ~ 0
+NoConn ~ 35300 39000
+NoConn ~ 35300 38900
+NoConn ~ 34300 38900
+NoConn ~ 34300 39000
+NoConn ~ 34300 39100
+NoConn ~ 34300 39200
+Text Label 27800 35600 0    50   ~ 0
 15-1?_6
-Text Label 33800 37700 2    50   ~ 0
+Text Label 34300 39400 2    50   ~ 0
 15-1?_6
 Text Label 29000 35450 2    50   ~ 0
 15-1?_6
-NoConn ~ 33800 37800
+NoConn ~ 34300 39500
 Text Label 21400 7750 0    50   ~ 0
 12-2?_6
 Text Label 11900 2000 2    50   ~ 0
@@ -5231,7 +5212,7 @@ Text Label 11900 3850 2    50   ~ 0
 10-3?_8
 Text Label 18200 7750 2    50   ~ 0
 10-3?_8
-Text Label 19600 10100 2    50   ~ 0
+Text Label 19550 13500 2    50   ~ 0
 10-3?_8
 NoConn ~ 12900 1900
 Text Label 3700 17100 2    50   ~ 0
@@ -5250,9 +5231,9 @@ Text Label 25600 34550 2    50   ~ 0
 15_2?_6
 Text Label 16400 5850 2    50   ~ 0
 15_2?_6
-Text Label 19600 10000 2    50   ~ 0
+Text Label 19550 13400 2    50   ~ 0
 15_2?_6
-Text Label 32200 36900 2    50   ~ 0
+Text Label 32850 38550 2    50   ~ 0
 18-1?_2
 Text Label 36050 24250 0    50   ~ 0
 ~PCAMA_WE
@@ -5291,7 +5272,7 @@ Text Label 37800 7100 2    50   ~ 0
 Bus_Error
 Text Label 37350 10300 2    50   ~ 0
 Bus_Error
-Text Label 19300 8900 2    50   ~ 0
+Text Label 19250 12300 2    50   ~ 0
 Bus_Error
 Text Label 37800 8150 2    50   ~ 0
 Bus_Error
@@ -5306,9 +5287,9 @@ Text Label 38750 10300 2    50   ~ 0
 Text Label 12650 9000 0    50   ~ 0
 Clk1_Lt'd_FPU_Busy
 Text Label 12650 7500 0    50   ~ 0
-~Status_Lt'd_FPU_Ready
+~Clk1~_~Lt'd_FPU_Ready~
 Text Label 15650 8100 2    50   ~ 0
-~Status_Lt'd_FPU_Ready
+~Clk1~_~Lt'd_FPU_Ready~
 Text Label 15650 8400 2    50   ~ 0
 Clk1_Lt'd_FPU_Busy
 Text Label 15650 7900 2    50   ~ 0
@@ -5340,7 +5321,7 @@ Text Label 19650 7550 0    50   ~ 0
 14-3?_8
 Text Label 20800 7550 2    50   ~ 0
 14-3?_8
-Text Label 20750 8800 2    50   ~ 0
+Text Label 20700 12200 2    50   ~ 0
 14-3?_8
 Text Label 45000 2300 2    50   ~ 0
 P-UP_10
@@ -5358,9 +5339,7 @@ Text Label 25300 7650 0    50   ~ 0
 Clk1_Lt'd_Address_Latch_Clock
 Text Label 28550 7650 2    50   ~ 0
 Clk1_Lt'd_Address_Latch_Clock
-Text Label 18150 10000 2    50   ~ 0
-Clk1_Lt'd_Address_Latch_Clock
-Text Label 31550 39450 2    50   ~ 0
+Text Label 18100 13400 2    50   ~ 0
 Clk1_Lt'd_Address_Latch_Clock
 Text Label 8750 31850 0    50   ~ 0
 AS_3
@@ -5386,14 +5365,6 @@ Wire Wire Line
 	8100 14150 7100 14150
 Wire Wire Line
 	7100 14150 7100 13850
-Text Label 17550 38050 0    50   ~ 0
-PAT2_D1xorD2
-Text Label 18650 38050 2    50   ~ 0
-PAT2_D1xorD2
-Text Label 19250 37950 0    50   ~ 0
-7-2?_3
-Text Label 19900 37950 2    50   ~ 0
-7-2?_3
 Text Label 45000 1900 2    50   ~ 0
 P-UP_6
 Text Label 1700 2900 0    50   ~ 0
@@ -5438,9 +5409,9 @@ Proc2_Active
 Text Label 37800 7600 2    50   ~ 0
 Proc2_Active
 Text Label 12650 7300 0    50   ~ 0
-Status_Lt'd_FPU_Ready
+~Clk1~_Lt'd_FPU_Ready
 Text Label 18200 7500 2    50   ~ 0
-Status_Lt'd_FPU_Ready
+~Clk1~_Lt'd_FPU_Ready
 $Comp
 L power:GND #PWR0267
 U 1 1 605F0565
@@ -5489,12 +5460,12 @@ Text Label 19800 45500 2    50   ~ 0
 Wire Wire Line
 	3700 16900 3700 17000
 Text Label 37350 10400 2    50   ~ 0
-9-1?_7
-Text Label 19900 8900 0    50   ~ 0
+~BAGIT_Bit
+Text Label 19850 12300 0    50   ~ 0
 18-3?_12
-Text Label 20750 8900 2    50   ~ 0
+Text Label 20700 12300 2    50   ~ 0
 18-3?_12
-Text Label 21350 8800 0    50   ~ 0
+Text Label 21300 12200 0    50   ~ 0
 14-2?_6
 Text Label 45900 38650 2    50   ~ 0
 14-2?_6
@@ -5508,23 +5479,23 @@ Text Label 45900 38550 2    50   ~ 0
 M-Cable_43
 Text Label 43650 23200 2    50   ~ 0
 ISA_RESET
-Text Label 20200 10000 0    50   ~ 0
+Text Label 20150 13400 0    50   ~ 0
 15-1?_8
-Text Label 19300 8800 2    50   ~ 0
+Text Label 19250 12200 2    50   ~ 0
 15-1?_8
-Text Label 21050 10000 2    50   ~ 0
+Text Label 21000 13400 2    50   ~ 0
 15-1?_8
-Text Label 18750 9900 0    50   ~ 0
+Text Label 18700 13300 0    50   ~ 0
 16-1?_11
-Text Label 19600 9900 2    50   ~ 0
+Text Label 19550 13300 2    50   ~ 0
 16-1?_11
-Text Label 27200 36250 2    50   ~ 0
+Text Label 27200 35150 2    50   ~ 0
 12-2?_5
 Text Label 24800 39400 2    50   ~ 0
 16-3?_2
-Text Label 27200 36350 2    50   ~ 0
+Text Label 27200 35250 2    50   ~ 0
 16-3?_2
-Text Label 27450 34900 2    50   ~ 0
+Text Label 27200 34800 2    50   ~ 0
 16-3?_2
 NoConn ~ 45000 2000
 Text Label 15150 2400 2    50   ~ 0
@@ -5623,9 +5594,9 @@ Text Label 26250 28750 2    50   ~ 0
 ~ISA_IOW
 Text Label 35300 26850 2    50   ~ 0
 ~OpReg_4
-Text Label 33800 37100 2    50   ~ 0
+Text Label 34300 38800 2    50   ~ 0
 18-1?_7
-NoConn ~ 32550 39350
+NoConn ~ 32150 39350
 Text Label 45050 26000 0    50   ~ 0
 ISA_BA01
 Text Label 45050 25900 0    50   ~ 0
@@ -5743,23 +5714,23 @@ Text Label 38800 8450 0    50   ~ 0
 Text Label 45900 38450 2    50   ~ 0
 20-1?_6
 Wire Wire Line
-	21050 10400 21050 10500
+	21000 13800 21000 13900
 Text Label 45900 38150 2    50   ~ 0
 M-Cable_35
-Text Label 21050 10400 2    50   ~ 0
+Text Label 21000 13800 2    50   ~ 0
 M-Cable_35
 $Comp
 L AT370:74S51 U21
 U 1 1 60290ABB
-P 21550 10300
-F 0 "U21" H 21700 10100 50  0000 C CNN
-F 1 "74S51" H 21700 10500 50  0000 C CNN
-F 2 "" H 21550 10300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74ls51.pdf" H 21550 10300 50  0001 C CNN
-	1    21550 10300
+P 21500 13700
+F 0 "U21" H 21650 13500 50  0000 C CNN
+F 1 "74S51" H 21650 13900 50  0000 C CNN
+F 2 "" H 21500 13700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls51.pdf" H 21500 13700 50  0001 C CNN
+	1    21500 13700
 	1    0    0    -1  
 $EndComp
-Text Notes 20300 10750 0    50   ~ 0
+Text Notes 20250 14150 0    50   ~ 0
 Note: 74S51 has two missing inputs compared to 74LS51
 Text Label 30400 44300 0    50   ~ 0
 20-3?_4
@@ -6706,7 +6677,7 @@ Wire Wire Line
 Wire Wire Line
 	29800 35550 29900 35550
 Text Label 18500 2500 0    50   ~ 0
-User_Space
+Control_Store
 Text Label 17900 2950 2    50   ~ 0
 FPU_~Data~-Command
 Text Label 16150 2700 0    50   ~ 0
@@ -6817,10 +6788,8 @@ Wire Notes Line
 	17050 2600 17050 2650
 Wire Notes Line
 	17050 2650 17850 2650
-Text Label 21850 8800 0    50   ~ 0
+Text Label 21800 12200 0    50   ~ 0
 M-Cable_45
-Text Notes 15300 7700 0    79   ~ 16
-FPU addressed 5F2X (hex) range\nPatent No: 4,814,977\nCol 6 Row 35
 Text Notes 14100 6900 0    79   ~ 16
 Hardware Registers Address A8-A15 Decode 5FXX?
 Text Label 42350 11850 2    50   ~ 0
@@ -6830,38 +6799,29 @@ Wire Notes Line
 Wire Notes Line
 	16150 2350 17050 2350
 Wire Wire Line
-	21050 10000 20600 10000
+	21000 13400 20550 13400
 Wire Wire Line
-	19300 8800 18900 8800
+	19250 12200 18850 12200
 Wire Wire Line
-	18900 8800 18900 9700
+	18850 12200 18850 13100
 Wire Wire Line
-	18900 9700 20600 9700
+	18850 13100 20550 13100
 Wire Wire Line
-	20600 9700 20600 10000
-Connection ~ 20600 10000
+	20550 13100 20550 13400
+Connection ~ 20550 13400
 Wire Wire Line
-	20600 10000 20200 10000
+	20550 13400 20150 13400
 Wire Wire Line
-	19650 7550 20250 7550
+	20700 12300 19850 12300
 Wire Wire Line
-	20250 7550 20250 8800
-Wire Wire Line
-	20250 8800 20750 8800
-Connection ~ 20250 7550
-Wire Wire Line
-	20250 7550 20800 7550
-Wire Wire Line
-	20750 8900 19900 8900
-Wire Wire Line
-	19300 9000 18550 9000
+	19250 12400 18500 12400
 Wire Wire Line
 	33950 6800 34700 6800
 Wire Wire Line
 	35300 6900 35950 6900
 Text Notes 24750 8950 0    551  ~ 110
 *
-Text Notes 20850 8800 0    551  ~ 110
+Text Notes 20850 8950 0    551  ~ 110
 *
 Text Notes 25750 8600 0    79   ~ 16
 * Relinquishes Reset at the beginning\nof a bus cycle when ~AS~ goes low.
@@ -6880,15 +6840,13 @@ Wire Wire Line
 Text Notes 45450 41400 0    79   ~ 16
 System Clock Divider\n16Mhz / 2 ?
 NoConn ~ 1400 1300
-NoConn ~ 32550 39250
-NoConn ~ 31550 39250
-NoConn ~ 32550 39150
-NoConn ~ 32550 39050
-NoConn ~ 31550 39050
-NoConn ~ 32550 38950
-Text Label 32550 38850 0    50   ~ 0
+NoConn ~ 32150 39250
+NoConn ~ 32150 39150
+NoConn ~ 32150 39050
+NoConn ~ 32150 38950
+Text Label 32150 38850 0    50   ~ 0
 18-1?_7
-NoConn ~ 32550 38750
+NoConn ~ 32150 38750
 NoConn ~ 12900 3250
 Text Label 12900 3350 0    50   ~ 0
 ~Write_INTR_REG
@@ -6896,7 +6854,7 @@ Text Label 12900 3450 0    50   ~ 0
 ~Write_FPU
 NoConn ~ 12900 3550
 NoConn ~ 12900 3650
-Text Label 32550 38650 0    50   ~ 0
+Text Label 32150 38650 0    50   ~ 0
 18-1?_2
 NoConn ~ 12900 1300
 Text Label 12900 1500 0    50   ~ 0
@@ -6913,27 +6871,12 @@ Text Label 11900 3250 2    50   ~ 0
 A4
 Text Label 11900 1300 2    50   ~ 0
 A4
-Text Label 31550 38850 2    50   ~ 0
-PAT2_D3
-Text Label 31550 38650 2    50   ~ 0
-PAT2_D1
 Text Label 12900 1600 0    50   ~ 0
 ~Read_BER_REG
 Text Label 12900 1700 0    50   ~ 0
 ~Read_ADDR_REG_High
 Text Label 12900 1400 0    50   ~ 0
 ~Read_CC_INT_REG
-$Comp
-L power:+5V #PWR0216
-U 1 1 603359E9
-P 32050 38350
-F 0 "#PWR0216" H 32050 38200 50  0001 C CNN
-F 1 "+5V" H 32065 38523 50  0000 C CNN
-F 2 "" H 32050 38350 50  0001 C CNN
-F 3 "" H 32050 38350 50  0001 C CNN
-	1    32050 38350
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+5V #PWR0212
 U 1 1 6032D0DC
@@ -6968,17 +6911,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/sn74ls51.pdf" H 1900 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS175 U19
-U 1 1 60139F88
-P 32050 39050
-F 0 "U19" H 32250 39600 50  0000 C CNN
-F 1 "74LS175" H 31800 39600 50  0000 C CNN
-F 2 "" H 32050 39050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS175" H 32050 39050 50  0001 C CNN
-	1    32050 39050
-	1    0    0    -1  
-$EndComp
-$Comp
 L 74xx:74LS138 U12
 U 1 1 5FFB3A3C
 P 12400 3550
@@ -7004,8 +6936,6 @@ Text Notes 24900 6300 0    79   ~ 16
 2
 Text Notes 12050 8550 0    551  ~ 110
 *
-Text Notes 13750 5600 0    79   ~ 16
-If !UserSpace or A23=0 or 
 Text Label 39500 44850 2    50   ~ 0
 ISA_BA00_Drv
 Text Label 36650 42100 2    50   ~ 0
@@ -7484,7 +7414,7 @@ N.C.
 Text Notes 3850 18300 0    79   ~ 16
 Both A1 and FPU_~Data~-Command\nmust be high to select Command from FPU
 Text Notes 19250 40600 0    79   ~ 16
-SYS_CNTL Register 5F2X/5FEX\nBit 0: Instruction Control Store Override Latch\nBit 1: Operand Control Store Override Latch\nBit 2: Bypass PAT bit to access Low Store\nBit 4: Off-Boundry Bit\nBit 5: BAGIT Bit
+SYS_CNTL Register 5F2X/5FEX\nBit 0: Instruction Control Store Override Latch\nBit 1: Operand Control Store Override Latch\nBit 2: Bypass PAT bit to access Low Store\nBit 4: ~Off-Boundry Bit~\nBit 5: ~BAGIT Bit~
 Text Notes 6100 9850 0    79   ~ 16
 "QUATCH/OBATCH"\nOp Code Register\nReturn Code Register\n5F7X/5FFX
 Text Notes 7400 2800 0    79   ~ 16
@@ -7516,9 +7446,9 @@ Off Boundry
 Text Notes 32400 4800 0    50   ~ 0
 ~Read~/Write
 Text Notes 19450 43800 0    79   ~ 16
-Off-Boundry Bit\nActive Low\nA-Engine will re-run bus cycle
+Off-Boundry Bit\nWrite 0 to latch.\nA-Engine will re-run bus cycle
 Text Notes 19450 45000 0    79   ~ 16
-BAGIT Bit\nActive Low\nForce Bus Error to A-Engine
+BAGIT Bit\nWrite 0 to latch.\nForce Bus Error to A-Engine
 Wire Wire Line
 	27500 3900 28650 3900
 Wire Wire Line
@@ -7597,4 +7527,89 @@ Text Label 36550 7100 0    50   ~ 0
 Bus_Error
 Wire Wire Line
 	38400 7200 39150 7200
+Text Notes 17300 7200 0    50   ~ 0
+~Off-Boundry Set or FPU Command or FPU_Ready
+Text Notes 15450 6700 0    50   ~ 0
+~5FXX and ControlStore and (!Proc2_Active or A23=0)
+Wire Wire Line
+	19650 7550 20800 7550
+Text Notes 19250 7350 0    50   ~ 0
+0 When:\nFPU_Busy, !FPU_Ready, 5FA0\nFPU_Busy, FPU_Ready, 5F92\nFPU_Busy, !FPU_Ready, 5F92\nOR\n!Off-Boundry_Bit, FPU_Data, or !FPU_Ready
+Text Notes 37750 6750 0    79   ~ 16
+As soon as a bus error is hit we\ntrigger the BERR pin of the active\nprocessor to handle the error.
+Text Notes 38950 10500 0    79   ~ 16
+Proc_Switch
+Text Notes 39900 9500 0    79   ~ 16
+Goes low when a Proc_Switch is requested\ntoggles back high to latch the Proc Switch\nLatch when bus cycle concludes.
+Wire Notes Line width 50 style solid
+	40450 9550 40450 9900
+Wire Wire Line
+	14800 38150 15000 38150
+Wire Wire Line
+	15000 38150 15000 38050
+Wire Wire Line
+	15000 38050 15200 38050
+Wire Wire Line
+	14800 37750 15000 37750
+Wire Wire Line
+	15000 37750 15000 37850
+Wire Wire Line
+	15000 37850 15200 37850
+Wire Wire Line
+	15800 37950 16250 37950
+Wire Wire Line
+	16250 38150 15700 38150
+Wire Wire Line
+	15700 38150 15700 38900
+Wire Wire Line
+	15700 38900 15050 38900
+Text Notes 14650 37150 0    79   ~ 16
+PAT Parity Generator/Check
+Text Notes 14450 37500 0    50   ~ 0
+PA_Parity is the parity bit stored in the PAT memory.\nThe NAND gate prevents it from summing into the parity\nduring a write, and it is only summed in during a read.\nWhich verifies the parity with the PA_Parity bit stored.
+$Comp
+L 74xx:74LS175 U19
+U 1 1 60139F88
+P 31650 39050
+F 0 "U19" H 31850 39600 50  0000 C CNN
+F 1 "74LS175" H 31400 39600 50  0000 C CNN
+F 2 "" H 31650 39050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS175" H 31650 39050 50  0001 C CNN
+	1    31650 39050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0216
+U 1 1 603359E9
+P 31650 38350
+F 0 "#PWR0216" H 31650 38200 50  0001 C CNN
+F 1 "+5V" H 31665 38523 50  0000 C CNN
+F 2 "" H 31650 38350 50  0001 C CNN
+F 3 "" H 31650 38350 50  0001 C CNN
+	1    31650 38350
+	1    0    0    -1  
+$EndComp
+Text Label 31150 38650 2    50   ~ 0
+PAT2_D1
+Text Label 31150 38850 2    50   ~ 0
+PAT2_D3
+NoConn ~ 31150 39050
+NoConn ~ 31150 39250
+Text Label 31150 39450 2    50   ~ 0
+Clk1_Lt'd_Address_Latch_Clock
+Text Label 31150 39550 2    50   ~ 0
+12-2?_5
+$Comp
+L power:GND #PWR0199
+U 1 1 60323FD4
+P 31650 39850
+F 0 "#PWR0199" H 31650 39600 50  0001 C CNN
+F 1 "GND" H 31655 39677 50  0000 C CNN
+F 2 "" H 31650 39850 50  0001 C CNN
+F 3 "" H 31650 39850 50  0001 C CNN
+	1    31650 39850
+	1    0    0    -1  
+$EndComp
+Text Notes 28100 36600 0    50   ~ 0
+U30 gates "PAT_Parity" (the parity output) so that\nit appears on PA_Parity during a write to the PAT memory.
 $EndSCHEMATC
